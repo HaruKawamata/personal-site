@@ -1,0 +1,56 @@
+---
+const url = Astro.url
+---
+<nav id="side-nav">
+  <ul>
+    <li>
+      <a href="/" aria-current={url.pathname === "/" ? "page" : "false"}>
+        Home
+      </a> 
+    </li>
+    <li>
+      <a href="projects" aria-current={url.pathname === "/projects" ? "page" : "false"}>
+        Projects
+      </a>
+      <ul class="sub-list">
+        <li>
+          <a href="projects/blog" aria-current={url.pathname === "/projects/blog" ? "page" : "false"}>Blog</a>
+        </li>
+        <li>
+          <a href="projects/clockblocker" aria-current={url.pathname === "/projects/clockblocker" ? "page" : "false"}>Clockblocker</a>
+        </li>
+        <li>
+          <a href="projects/hierarchy" aria-current={url.pathname === "/projects/hierarchy" ? "page" : "false"}>Hierarchy</a>
+        </li>
+        <li>
+          <a href="projects/issei" aria-current={url.pathname === "/projects/issei" ? "page" : "false"}>Issei</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="readme" aria-current={url.pathname === "/readme" ? "page" : "false"}>
+        README.md
+      </a>
+    </li>
+    <li>
+      <a href="resume" aria-current={url.pathname === "/resume" ? "page" : "false"}>
+        Resume
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<style>
+  #side-nav {
+    float: left;
+    background-color: #fee159;
+  }
+  #side-nav ul {
+    list-style: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  #side-nav a[aria-current="page"] {
+    
+  }
+</style>

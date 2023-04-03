@@ -1,6 +1,4 @@
 ---
-import SideNav from "../components/SideNav.astro"
-
 export interface Props {
 	title: string;
 }
@@ -18,7 +16,6 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
-		<SideNav />
 		<slot />
 	</body>
 </html>
@@ -28,11 +25,8 @@ const { title } = Astro.props;
 		--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
 	}
 	html {
-		font-family: "Times New Roman", serif;
+		font-family: system-ui, sans-serif;
 		background-color: #F6F6F6;
-	}
-	body {
-		margin: 0;
 	}
 	code {
 		font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,

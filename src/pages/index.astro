@@ -1,44 +1,98 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Layout from "../layouts/Layout.astro"
+import hugoImg1 from "../images/hugoImg1.jpg"
+import hugoImg2 from "../images/hugoImg2.jpg"
+import hugoImg3 from "../images/hugoImg3.jpg"
+import hugoImg4 from "../images/hugoImg4.jpg"
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Hugo Kawamata">
 	<main>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
+		<h1>I'm Hugo</h1>
+    <h2>Welcome to my Homepage!</h2>
+		<section>
+      <div class="text-wrapper">
+        <h3>About me</h3>
+        <p>
+          I'm Hugo, a senior software developer, currently working at <a href="https://www.tanda.co">Tanda</a>.
+        </p>
+        <p>
+          Although I work in tech, when I'm not at the office I usually spend my time on non-tech related projects.
+          I don't feel crazy burning passion for programming itself - my true love is <em>problem solving</em>, which
+          luckily, programming lets me do a lot of.
+        </p>
+      </div>
+      <img src={hugoImg1} alt="Hugo Kawamata" />
+    </section>
+		<section>
+      <img src={hugoImg2} alt="Hugo Kawamata" />
+      <div class="text-wrapper">
+        <h3>My Tech Experience</h3>
+        <p>
+          I specialise in:
+          <ul>
+            <li>Ruby on Rails</li>
+            <li>React & React Native</li>
+            <li>Javascript in general</li>
+          </ul>
+          but I am fairly language agnostic. I've been working as a software developer since January 2018.
+        </p>
+      </div>
+    </section>
+		<section>
+      <div class="text-wrapper">
+        <h3>Japanese</h3>
+        <p>
+          I'm half Japanese. I never learned the language much growing up, though I was brought up on various
+          aspects of Japanese culture. I decided to begin learning Japanese seriously in mid 2019,
+          logging around 3 hours of study every day for the first year. I've gotten to the point where I would call
+          myself semi-fluent. My study of Japanese led me down the rabbit hole of linguistics, which you can read
+          more about <a href="/projects/blog">here</a>.
+        </p>
+      </div>
+      <img src={hugoImg3} alt="Hugo Kawamata" />
+    </section>
+		<section>
+      <img src={hugoImg4} alt="Hugo Kawamata" />
+      <div class="text-wrapper">
+        <h3>Other Passions</h3>
+        <p>
+          Besides Japanese and software, my other passions and hobbies include:
+          <ul>
+            <li>
+              Learning about semiotics.
+            </li>
+            <li>
+              Art (I doodle and draw cartoons, digitally and with Posca markers)
+            </li>
+            <li>
+              Dot journalling.
+            </li>
+            <li>
+              Cooking (especially Japanese cooking). My specialties are fried rice and gyoza.
+            </li>
+            <li>
+              Tabletop game design (<a href="/projects/hierarchy">I published a game!</a>)
+            </li>
+            <li>
+              Weaverdice (I am a worm nerd. <a href="https://parahumans.wordpress.com/">Read worm!</a>)
+            </li>
+          </ul>
+        </p>
+      </div>
+    </section>
+    <div class="visitor-count">
+      Visitor count: 19,256
+    </div>
+    <div class="last-updated">
+      Last updated: 3 Apr, 2003
+    </div>
 	</main>
 </Layout>
 
 <style>
 	main {
 		margin: auto;
-		padding: 1.5rem;
 		max-width: 60ch;
 	}
 	h1 {
@@ -46,36 +100,14 @@ import Card from '../components/Card.astro';
 		font-weight: 800;
 		margin: 0;
 	}
+  section {
+    display: flex;
+  }
 	.text-gradient {
 		background-image: var(--accent-gradient);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-size: 400%;
 		background-position: 0%;
-	}
-	.instructions {
-		line-height: 1.6;
-		margin: 1rem 0;
-		border: 1px solid rgba(var(--accent), 25%);
-		background-color: white;
-		padding: 1rem;
-		border-radius: 0.4rem;
-	}
-	.instructions code {
-		font-size: 0.875em;
-		font-weight: bold;
-		background: rgba(var(--accent), 12%);
-		color: rgb(var(--accent));
-		border-radius: 4px;
-		padding: 0.3em 0.45em;
-	}
-	.instructions strong {
-		color: rgb(var(--accent));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 1rem;
-		padding: 0;
 	}
 </style>
