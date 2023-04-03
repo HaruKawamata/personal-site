@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro"
+import portrait from "../images/hugo-profile.jpeg"
 import hugoImg1 from "../images/hugo-karaoke.jpeg"
 import hugoImg2 from "../images/hugo-programmer.png"
 import hugoImg3 from "../images/hugo-japan.jpeg"
@@ -8,14 +9,19 @@ import hugoImg4 from "../images/jamey-stegmaier.png"
 
 <Layout title="Hugo Kawamata">
 	<main>
-		<h1>I'm Hugo</h1>
-    <h2>Welcome to my Homepage!</h2>
+    <header>
+      <div class="header-text">
+        <h1>I'm Hugo</h1>
+        <h2>Welcome to my Homepage!</h2>
+      </div>
+      <img src={portrait} alt="A front facing photo of me on a yellow background" />
+    </header>
 		<section>
       <div class="section-border-inner">
         <div class="text-wrapper">
           <h3>About me</h3>
           <p>
-            I'm Hugo, a senior software developer, currently working at <a href="https://www.tanda.co">Tanda</a>.
+            Hello web surfer, and welcome to my homepage. I'm Hugo, a senior software developer, currently working at <a href="https://www.tanda.co">Tanda</a>.
           </p>
           <p>
             Although I work in tech, when I'm not at the office I usually spend my time on non-tech related projects.
@@ -100,16 +106,28 @@ import hugoImg4 from "../images/jamey-stegmaier.png"
 
 <style>
 	main {
-		margin: auto;
+    margin: 0 6ch;
 		max-width: 80ch;
 	}
+  header {
+    align-items: center;
+    display: flex;
+    padding: 1ch 0;
+  }
+  header .header-text {
+    flex-grow: 1;
+  }
 	h1 {
 		font-size: 3rem;
 		font-weight: 800;
 		margin: 0;
 	}
+  header img {
+    border-radius: 100%;
+    max-width: 30%;
+  }
   section {
-    border-color: #cbcbcb #4e474e #4e474e #cbcbcb;
+    border-color: #888 #444 #444 #888;
     border-style: solid;
     border-width: 5px;
     margin-bottom: 2ch;
@@ -117,7 +135,7 @@ import hugoImg4 from "../images/jamey-stegmaier.png"
   }
   section .section-border-inner {
     align-items: center;
-    background-color: rgba(230, 230, 230, 0.5);
+    background-color: rgba(230, 230, 230, 0.1);
     display: flex;
     justify-content: space-around;
     outline: 2px solid #151514;

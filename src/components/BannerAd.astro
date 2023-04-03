@@ -1,0 +1,30 @@
+---
+import blogBannerAd from "../images/banner-blog.png"
+const images = { 
+  blog: blogBannerAd
+}
+
+const links = {
+  blog: "https://jimmy-dipthong.tumblr.com/tagged/jimmy%20blogthong"
+}
+
+const randomIndex = Math.floor(Math.random() * (Object.keys(images).length - 1))
+const randomKey = Object.keys(images)[randomIndex]
+// @ts-ignore We're getting a string out of Object.keys so this is safe
+const randomImage = images[randomKey]
+// @ts-ignore Less safe, but still safe as long as `links` has the same keys as `images`
+const randomLink = links[randomKey]
+
+---
+<!-- Can't call the class or image "banner-ad" or it gets yoinked by adblock lol -->
+<div class="image-link">
+  <a href={randomLink}>
+    <img src={randomImage} alt="A fake retro banner" />
+  </a>
+</div>
+
+<style>
+  .image-link {
+    margin-top: 21vh;
+  }
+</style>

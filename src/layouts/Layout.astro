@@ -1,6 +1,6 @@
 ---
 import SideNav from "../components/SideNav.astro"
-
+import BannerAd from "../components/BannerAd.astro";
 export interface Props {
 	title: string;
 }
@@ -19,7 +19,11 @@ const { title } = Astro.props;
 	</head>
 	<body>
 		<SideNav />
-		<slot />
+		<content>
+			<BannerAd />
+			<slot />
+			<BannerAd />
+		</content>
 	</body>
 </html>
 <style is:global>
@@ -28,8 +32,9 @@ const { title } = Astro.props;
 		--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
 	}
 	html {
+		color: #F6F6F6;
 		font-family: "Times New Roman", serif;
-		background-color: #F6F6F6;
+		background-color: #222222; /*#F6F6F6;*/
 	}
 	body {
 		margin: 0;
@@ -37,5 +42,15 @@ const { title } = Astro.props;
 	code {
 		font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
 			Bitstream Vera Sans Mono, Courier New, monospace;
+	}
+	a {
+		color: #f2cf30;
+	}
+	a:visited {
+		color: #fee159;
+	}
+	content {
+		display: flex;
+		justify-content: center;
 	}
 </style>
