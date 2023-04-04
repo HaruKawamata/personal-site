@@ -8,7 +8,7 @@ import isseiNavIcon from "../images/issei-nav.png"
 import resumeNavIcon from "../images/resume-nav.png"
 const url = Astro.url
 ---
-<nav id="side-nav">
+<nav id="top-nav">
   <ul>
     <li>
       <a href="/" aria-current={url.pathname === "/" ? "page" : "false"}>
@@ -56,18 +56,17 @@ const url = Astro.url
 </nav>
 
 <style>
-  #side-nav {
+  #top-nav {
     background-color: #555555;
-    position: fixed;
-    height: 100%;
-    padding-right: 1.5rem;
   }
-  #side-nav ul {
+  #top-nav ul {
     list-style: none;
     padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: flex;
   }
-  #side-nav li img {
-    width: 105px;
+  #top-nav img {
+    width: 140px;
   }
   #side-nav a[aria-current="page"] {
     

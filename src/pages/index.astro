@@ -5,23 +5,24 @@ import hugoImg1 from "../images/hugo-karaoke.jpeg"
 import hugoImg2 from "../images/hugo-programmer.png"
 import hugoImg3 from "../images/hugo-japan.jpeg"
 import hugoImg4 from "../images/jamey-stegmaier.png"
+import wordArt from "../images/word-art.gif"
 ---
 
 <Layout title="Hugo Kawamata">
 	<main>
     <header>
       <div class="header-text">
-        <h1>I'm Hugo</h1>
+        <h1><img src={wordArt} alt="I'm Hugo" /></h1>
         <h2>Welcome to my Homepage!</h2>
       </div>
-      <img src={portrait} alt="A front facing photo of me on a yellow background" />
+      <!-- <img class="profile-pic" src={portrait} alt="A front facing photo of me on a yellow background" /> -->
     </header>
 		<section>
       <div class="section-border-inner">
         <div class="text-wrapper">
           <h3>About me</h3>
           <p>
-            Hello web surfer, and welcome to my homepage. I'm Hugo, a senior software developer, currently working at <a href="https://www.tanda.co">Tanda</a>.
+            Greetings fellow web surfer, and welcome to my homepage. I'm Hugo, a senior software developer, currently working at <a href="https://www.tanda.co">Tanda</a>.
           </p>
           <p>
             Although I work in tech, when I'm not at the office I usually spend my time on non-tech related projects.
@@ -117,15 +118,16 @@ import hugoImg4 from "../images/jamey-stegmaier.png"
   header .header-text {
     flex-grow: 1;
   }
-	h1 {
-		font-size: 3rem;
-		font-weight: 800;
-		margin: 0;
-	}
-  header img {
+  header .profile-pic {
     border-radius: 100%;
     max-width: 30%;
   }
+	header h1 img {
+		font-size: 3rem;
+		font-weight: 800;
+		margin: 0;
+    width: 20ch;
+	}
   section {
     border-color: #888 #444 #444 #888;
     border-style: solid;
