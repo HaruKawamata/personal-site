@@ -1,0 +1,68 @@
+---
+import SideBannerLayout from "../../layouts/SideBannerLayout.astro"
+import webAppMicroBanner from "../../images/clockblocker-app-nav.png"
+import githubMicroBanner from "../../images/github-nav.png"
+import clockblockerScreenshot from "../../images/clockblocker-screenshot.png"
+---
+
+
+<SideBannerLayout title="Clockblocker">
+  <header slot="header">
+    <h1>Clockblocker</h1>
+    <h2>A time visualisation tool for neurodivergent people</h2>
+  </header>
+  <main>
+    <div class="links">
+      <a href="https://clockblocker.netlify.app/">
+        <img src={webAppMicroBanner} alt="Link to the clockblocker site" />
+      </a>
+      <a href="https://github.com/HugoKawamata/clockblocker">
+        <img src={githubMicroBanner} alt="Link to the clockblocker github repo" />
+      </a>
+    </div>
+    <a href="">
+      <img class="clockblocker-screenshot" src={clockblockerScreenshot} alt="A screenshot of the clockblocker webapp" />
+    </a>
+    <p>
+      Clockblocker is a time visualisation tool I built to help me manage my study time. I recently found out I
+      might be a bit autistic, so I built this to accomodate the way I visualise time. The app's design was
+      inspired by other time visualisation tools built for neurodivergent people, like TimeTimer.
+    </p>
+    <p>
+      When I get home from work, there's always a couple things I want to do. Cook dinner, revise vocab, watch
+      some japanese youtube/netflix, and maybe read or something. It's also important to give my brain a break so
+      I sometimes watch english youtube or play games, but I often get distracted and watch/play for longer than
+      I want to.
+    </p>
+    <p>
+      With Clockblocker, I can add various “blocks” of time to the clock and actually visualise the amount of time
+      it takes up. This way I can schedule in time to relax without going overboard, I can ensure the right amount
+      of my evening is devoted to language learning, and I can make sure I go to bed on time instead of getting
+      carried away.
+    </p>
+    <p>
+      As time passes, the coloured part of the clocks will get smaller, so you can see time elapsing in real time
+      and gauge how much longer you have on a task!
+    </p>
+    <p>
+      One thing I believe very strongly is that making the most of one's time is Good. We have so little time to be
+      truly free to achieve our own goals. I want to do anything I can that might help other people flourish in their
+      free time. I hope this is able to help you achieve your language/study goals and make the best use of your time!
+    </p>
+  </main>
+</SideBannerLayout>
+
+<style>
+  header {
+    text-align: center;
+  }
+  .links a {
+    text-decoration: none;
+  }
+  .links img {
+    width: 105px;
+  }
+  .clockblocker-screenshot {
+    width: 100%;
+  }
+</style>
