@@ -2,21 +2,28 @@
 import SideBannerLayout from "../../layouts/SideBannerLayout.astro"
 import starDivider from "../../images/star-divider.webp"
 import shishishiba from "../../images/shishishiba.png"
+import blogHeader from "../../images/blog-header.png"
 ---
 
 
 <SideBannerLayout title="My Blog">
   <header slot="header">
+    <a href="https://jimmy-dipthong.tumblr.com/tagged/jimmy%20blogthong">
+    <img class="blog-header" src={blogHeader} alt="A screenshot of the top of my tumblr blog" />
+    </a>
     <h1>My Blog</h1>
     <h2>Linguistics, Doodles, Semiotics and more...</h2>
   </header>
   <main>
     <p>
-      The thing I work on the most is my Tumblr blog. I go by "jimmy-dipthong". I post about a variety of topics.
-      Click the header for each section to be taken to a version of my blog filtered to that specific topic.
+      The thing I work on the most is my <a href="https://jimmy-dipthong.tumblr.com/tagged/jimmy%20blogthong">Tumblr blog</a>.
+      I go by "jimmy-dipthong" there (no particular reason for the name, I just thought it sounded funny and vaguely language-related).
+      I post about a variety of topics! Click the header for each section below to be taken to a version of my blog filtered to that specific topic.
     </p>
-    <img src={starDivider} alt="Retro page divider">
-    <h3>Semiotics</h3>
+    <div class="divider">
+      <img class="divider" src={starDivider} alt="Retro page divider">
+    </div>
+    <a href="https://semiotic-sandwich-hell.tumblr.com/"><h3>Semiotics</h3></a>
     <p>
       Quickly - what is semiotics? Semiotics is the study of signs, meaning, and representation. It's the study of how one thing
       can represent another thing. Because it operates on such a high level of abstraction, it's quite difficult to
@@ -33,8 +40,10 @@ import shishishiba from "../../images/shishishiba.png"
       <em>aren't</em> sandwiches. The blog started as a way of keeping a log of my thoughts as I read through a beginner
       semiotics text.
     </p>
-    <img src={starDivider} alt="Retro page divider">
-    <h3>Linguistics</h3>
+    <div class="divider">
+      <img class="divider" src={starDivider} alt="Retro page divider">
+    </div>
+    <a href="https://jimmy-dipthong.tumblr.com/tagged/langblr"><h3>Linguistics</h3></a>
     <p>
       Combining my semiotics research and my experience learning Japanese (and small amount of research into
       second language acquisition), I also began thinking and posting about how language. In particular, I post about
@@ -45,18 +54,59 @@ import shishishiba from "../../images/shishishiba.png"
       This is probably what my blog is most famous for! I've made a few posts which have had decent reach through the Tumblr
       language learning community.
     </p>
-    <img src={starDivider} alt="Retro page divider">
-    <h3>My Art</h3>
+    <div class="divider">
+      <img src={starDivider} alt="Retro page divider">
+    </div>
+    <a href="https://jimmy-dipthong.tumblr.com/tagged/my%20art"><h3>My Art</h3></a>
     <p>
       I also do a little bit of drawing. I mostly do thick-lined doodles and drawings of pokemon-esque monsters.
       I've done a small series of drawings of creatures with pokedex-style descriptions in both English and Japanese.
     </p>
-    <img class="drawing" src={shishishiba} alt="A cartoon drawing of a green lizard-like creature with a long neck and single arm. It appears to be dead, with its innards exposed and ribs poking out of its back." />
+    <div class="zukan">
+      <img class="drawing" src={shishishiba} alt="A cartoon drawing of a green lizard-like creature with a long neck and single arm. It appears to be dead, with its innards exposed and ribs poking out of its back." />
+      <strong>Carcassiphon</strong>
+      <p>
+        To avoid being eaten, they blend into their surroundings using their corpse-like smell and appearance. While
+        pretending to be dead, they suck up nutrients soaked in the grass and ground. When the ground under its head
+        is spent, it uses its single arm to drag the body to a new location. The rib-like spikes keep it from being
+        trampled by larger creatures. Its arm drives away flies and picks off parasites.
+      </p>
+      <strong>シシシバ</strong>
+      <p>
+        敵に食べられないよう、死体のような臭いと見た目で地面に溶け込み、姿を潜めている。死んだふりをしながら草と土の栄養を吸い込む。
+        頭の下にあった地面の栄養を吸収し終わると、唯一の腕で新しい場所に身体を引きずる。他の大きな生き物に踏まれぬよう、
+        肋骨のような見た目のトゲで身を守る。腕でハエを追いやり、寄生虫を取る。
+      </p>
+      <p>
+        シシシバ is a combination of 死屍 (meaning corpse; or just a repetition of 死, meaning death) and 芝 (turf,
+        grass). The バ can also refer to its teeth (歯), making the repetition of 死 three times instead of two.
+      </p>
+    </div>
   </main>
 </SideBannerLayout>
 
 <style>
+  header {
+    text-align: center;
+  }
+  .blog-header {
+    max-width: 130ch;
+  }
   .drawing {
     width: 100%;
+  }
+  .divider {
+    text-align: center;
+  }
+  .zukan {
+    background-color: #e2f2e8;
+    border-radius: 1rem;
+    border-width: 9px;
+    border-style: solid;
+    border-color: #999 #555 #555 #999;
+    padding: 1rem;
+    color: #000000;
+    font-family: "Courier New", "HiraMinProN-W6", Courier, monospace;
+    font-weight: bold;
   }
 </style>
