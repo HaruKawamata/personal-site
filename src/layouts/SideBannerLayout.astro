@@ -1,0 +1,23 @@
+---
+import BaseLayout from "./BaseLayout.astro"
+import BannerAd from "../components/BannerAd.astro"
+
+const { title } = Astro.props
+---
+
+<BaseLayout title={title}>
+	<slot name="header" />
+  <div class="banner-bordered-content">
+    <BannerAd />
+    <slot />
+    <BannerAd />
+  </div>
+</BaseLayout>
+
+<style>
+  .banner-bordered-content {
+		flex-grow: 1;
+		display: flex;
+		justify-content: center;
+  }
+</style>

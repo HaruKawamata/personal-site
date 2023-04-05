@@ -6,9 +6,12 @@ import clockblockerNavIcon from "../images/clockblocker-nav.png"
 import hierarchyNavIcon from "../images/hierarchy-nav.png"
 import isseiNavIcon from "../images/issei-nav.png"
 import resumeNavIcon from "../images/resume-nav.png"
+import featuredPages from "../images/featured-pages.gif"
 const url = Astro.url
 ---
-<nav id="side-nav">
+<nav id="side-nav" class="display-none-if-mobile">
+  <h3><img src={featuredPages} alt="Featured Pages" /></h3>
+  <p>Click the buttons below to visit our featured areas!</p>
   <ul>
     <li>
       <a href="/" aria-current={url.pathname === "/" ? "page" : "false"}>
@@ -58,9 +61,20 @@ const url = Astro.url
 <style>
   #side-nav {
     background-color: #555555;
-    position: fixed;
+    /* position: fixed; */
     height: 100%;
     padding-right: 1.5rem;
+    margin-top: 20vh;
+    max-width: 150px;
+  }
+  #side-nav h3 {
+    padding-left: 1rem;
+  }
+  #side-nav h3 img {
+    width: 100%;
+  }
+  #side-nav p {
+    padding-left: 1rem;
   }
   #side-nav ul {
     list-style: none;
@@ -69,7 +83,9 @@ const url = Astro.url
   #side-nav li img {
     width: 105px;
   }
-  #side-nav a[aria-current="page"] {
-    
+  @media (max-width: 767px) {
+    .display-none-based-on-width {
+      display: none;
+    }
   }
 </style>
