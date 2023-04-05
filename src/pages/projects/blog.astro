@@ -1,0 +1,62 @@
+---
+import SideBannerLayout from "../../layouts/SideBannerLayout.astro"
+import starDivider from "../../images/star-divider.webp"
+import shishishiba from "../../images/shishishiba.png"
+---
+
+
+<SideBannerLayout title="My Blog">
+  <header slot="header">
+    <h1>My Blog</h1>
+    <h2>Linguistics, Doodles, Semiotics and more...</h2>
+  </header>
+  <main>
+    <p>
+      The thing I work on the most is my Tumblr blog. I go by "jimmy-dipthong". I post about a variety of topics.
+      Click the header for each section to be taken to a version of my blog filtered to that specific topic.
+    </p>
+    <img src={starDivider} alt="Retro page divider">
+    <h3>Semiotics</h3>
+    <p>
+      Quickly - what is semiotics? Semiotics is the study of signs, meaning, and representation. It's the study of how one thing
+      can represent another thing. Because it operates on such a high level of abstraction, it's quite difficult to
+      reason about. An example would be words - a each word I have written on this blog is a "sign", representing some meaning.
+    </p>
+    <p>
+      This is where the blog got started. For a complete history, see 
+      <a href="https://www.tumblr.com/semiotic-sandwich-hell/713728066466283520/the-history-of-how-this-blog-got-started?source=share">
+        this post.
+      </a>
+      The abridged history: at work, we made a sandwich club where we posted photos of sandwiches we made.
+      Eventually people started asking questions like "can we post pics of burgers we made?" and "what about hot dogs?"
+      I was so incensed by these absurd questions that I started looking for a good argument to explain why hot dogs
+      <em>aren't</em> sandwiches. The blog started as a way of keeping a log of my thoughts as I read through a beginner
+      semiotics text.
+    </p>
+    <img src={starDivider} alt="Retro page divider">
+    <h3>Linguistics</h3>
+    <p>
+      Combining my semiotics research and my experience learning Japanese (and small amount of research into
+      second language acquisition), I also began thinking and posting about how language. In particular, I post about
+      linguistic quirks of Japanese I've noticed, and what that can teach us about language in general. NB: I have no formal
+      education in linguistics, so all of it should be taken with a generous pinch of salt!
+    </p>
+    <p>
+      This is probably what my blog is most famous for! I've made a few posts which have had decent reach through the Tumblr
+      language learning community.
+    </p>
+    <img src={starDivider} alt="Retro page divider">
+    <h3>My Art</h3>
+    <p>
+      I also do a little bit of drawing. I mostly do thick-lined doodles and drawings of pokemon-esque monsters.
+      I've done a small series of drawings of creatures with pokedex-style descriptions in both English and Japanese.
+    </p>
+    <img class="drawing" src={shishishiba} alt="A cartoon drawing of a green lizard-like creature with a long neck and single arm. It appears to be dead, with its innards exposed and ribs poking out of its back." />
+  </main>
+</SideBannerLayout>
+
+<style>
+  .drawing {
+    width: 100%;
+  }
+</style>
