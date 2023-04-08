@@ -3,6 +3,8 @@ import SideBannerLayout from "../../layouts/SideBannerLayout.astro"
 import redditMicroBanner from "../../images/reddit-nav.png"
 import kickstarterMicroBanner from "../../images/kickstarter-nav.png"
 import shopPageMicroBanner from "../../images/button-shy-nav.png"
+import hierarchySplash from "../../images/hierarchy.png"
+import hierarchyGameplay from "../../images/hierarchy-gameplay.jpeg"
 ---
 
 
@@ -23,8 +25,8 @@ import shopPageMicroBanner from "../../images/button-shy-nav.png"
         <img src={shopPageMicroBanner} alt="Link to Buy Hierarchy" />
       </a>
     </div>
-    <a href="">
-      <!-- <img class="clockblocker-screenshot" src={clockblockerScreenshot} alt="A screenshot of the clockblocker webapp" /> -->
+    <a href="https://buttonshygames.com/products/hierarchy">
+      <img class="hierarchy-splash" src={hierarchySplash} alt="A screenshot of the clockblocker webapp" />
     </a>
     <p>
       In 2018, I was on a card game design bent. I designed two games, one called City of Thieves (not published, even
@@ -54,6 +56,7 @@ import shopPageMicroBanner from "../../images/button-shy-nav.png"
     <p>
       I aspire to make more tabletop games in the future!
     </p>
+    <img class="hierarchy-splash" src={hierarchyGameplay} alt="Photograph of Hierarchy gameplay" />
   </main>
 </SideBannerLayout>
 
@@ -67,7 +70,7 @@ import shopPageMicroBanner from "../../images/button-shy-nav.png"
   .links img {
     width: 105px;
   }
-  .clockblocker-screenshot {
+  .hierarchy-splash {
     width: 100%;
   }
 </style>
