@@ -1,0 +1,73 @@
+---
+import SideBannerLayout from "../../layouts/SideBannerLayout.astro"
+import redditMicroBanner from "../../images/reddit-nav.png"
+import kickstarterMicroBanner from "../../images/kickstarter-nav.png"
+import shopPageMicroBanner from "../../images/button-shy-nav.png"
+---
+
+
+<SideBannerLayout title="Clockblocker">
+  <header slot="header">
+    <h1>Hierarchy</h1>
+    <h2>My first published tabletop game!</h2>
+  </header>
+  <main>
+    <div class="links">
+      <a href="https://www.reddit.com/r/boardgames/comments/ahv6st/check_out_hierarchy_a_printable_simple_14_card/">
+        <img src={redditMicroBanner} alt="Link to Original Reddit post" />
+      </a>
+      <a href="https://www.kickstarter.com/projects/239309591/hierarchy-an-abstract-game-of-order-and-power">
+        <img src={kickstarterMicroBanner} alt="Link to Funded Kickstarter" />
+      </a>
+      <a href="https://buttonshygames.com/products/hierarchy">
+        <img src={shopPageMicroBanner} alt="Link to Buy Hierarchy" />
+      </a>
+    </div>
+    <a href="">
+      <!-- <img class="clockblocker-screenshot" src={clockblockerScreenshot} alt="A screenshot of the clockblocker webapp" /> -->
+    </a>
+    <p>
+      In 2018, I was on a card game design bent. I designed two games, one called City of Thieves (not published, even
+      though it's the better game in my opinion), and one called Hierarchy. I ran a few playtests with my friends, and
+      once I finished up the game design, I thought it would be a waste to leave them both as prototypes. I wanted to
+      put them out on the internet - I just wanted people to play my games! Hierarchy was the obvious choice to do, since
+      it's a game with open information which means you can play it on standard printer paper without worrying about being
+      able to see through the cards.
+    </p>
+    <p>
+      So I did a bit of work on the visual design of the cards and then posted it
+      <a href="https://www.reddit.com/r/boardgames/comments/ahv6st/check_out_hierarchy_a_printable_simple_14_card/">
+        on Reddit
+      </a>. The post got to the front page of /r/boardgames, and it caught the attention of Jason Tagmire, the owner of
+      Button Shy games, a card game company that specialises in 18 card games that they sell in little bi-fold wallets.
+      I couldn't believe my luck that such a company existed! He later contacted me about publishing and we took it to
+      <a href="https://www.kickstarter.com/projects/239309591/hierarchy-an-abstract-game-of-order-and-power">Kickstarter</a>
+      where it was funded almost immediately.
+    </p>
+    <p>
+      You can buy the game <a href="https://buttonshygames.com/products/hierarchy">here</a> (though stock may not be
+      available). Even though it hasn't sold as well as some other games by Button Shy, famous game designer/publisher
+      Jamey Stegmaier (designer of Scythe, Viticulture, and Tapestry, and publisher of Wingspan) made a
+      <a href="https://youtu.be/UFSN2s0QAeg">YouTube video about Hierarchy!</a>
+      Game review channel <a href="https://youtu.be/LK1JySceRZk?t=815">Shut Up & Sit Down</a> also reviewed Hierarchy!
+    </p>
+    <p>
+      I aspire to make more tabletop games in the future!
+    </p>
+  </main>
+</SideBannerLayout>
+
+<style>
+  header {
+    text-align: center;
+  }
+  .links a {
+    text-decoration: none;
+  }
+  .links img {
+    width: 105px;
+  }
+  .clockblocker-screenshot {
+    width: 100%;
+  }
+</style>
