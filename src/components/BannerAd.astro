@@ -1,19 +1,25 @@
 ---
 import blogBannerAd from "../images/banner-blog.png"
-const images = { 
-  blog: blogBannerAd
+import hierarchyBannerAd from "../images/banner-hierarchy.gif"
+const bannerAds = { 
+  blog: {
+    image: blogBannerAd,
+    link: "https://jimmy-dipthong.tumblr.com/tagged/jimmy%20blogthong"
+  },
+  hierarchy: {
+    image: hierarchyBannerAd,
+    link: "https://buttonshygames.com/products/hierarchy"
+  }
 }
 
-const links = {
-  blog: "https://jimmy-dipthong.tumblr.com/tagged/jimmy%20blogthong"
-}
 
-const randomIndex = Math.floor(Math.random() * (Object.keys(images).length - 1))
-const randomKey = Object.keys(images)[randomIndex]
+const randomIndex = Math.floor(Math.random() * (Object.keys(bannerAds).length))
+const randomKey = Object.keys(bannerAds)[randomIndex]
 // @ts-ignore We're getting a string out of Object.keys so this is safe
-const randomImage = images[randomKey]
-// @ts-ignore Less safe, but still safe as long as `links` has the same keys as `images`
-const randomLink = links[randomKey]
+const randomAd = bannerAds[randomKey]
+const randomImage = randomAd.image
+// @ts-ignore We're getting a string out of Object.keys so this is safe
+const randomLink = randomAd.link
 
 ---
 <!-- Can't call the class or image "banner-ad" or it gets yoinked by adblock lol -->
@@ -24,7 +30,7 @@ const randomLink = links[randomKey]
 </div>
 
 <style>
-  .image-link {
-    /* margin-top: 21vh; */
+  .image-link img {
+    width: 137px;
   }
 </style>
