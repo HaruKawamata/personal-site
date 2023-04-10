@@ -1,0 +1,123 @@
+---
+import SideBannerLayout from "../../layouts/SideBannerLayout.astro"
+
+import blogCellImage from "../../images/blog-cell.png"
+import clockblockerCellImage from "../../images/clockblocker-screenshot.png"
+import hierarchyCellImage from "../../images/hierarchy.png"
+import isseiCellImage from "../../images/issei-cell.png"
+
+import blogAllPostsMicroBanner from "../../images/blog-all-posts-nav.png"
+import blogLangblrMicroBanner from "../../images/blog-langblr-nav.png"
+import blogMyArtMicroBanner from "../../images/blog-my-art-nav.png"
+
+import webAppMicroBanner from "../../images/clockblocker-app-nav.png"
+import githubMicroBanner from "../../images/github-nav.png"
+
+import redditMicroBanner from "../../images/reddit-nav.png"
+import kickstarterMicroBanner from "../../images/kickstarter-nav.png"
+import shopPageMicroBanner from "../../images/button-shy-nav.png"
+
+import blogNavIcon from "../../images/blog-nav.png"
+import clockblockerNavIcon from "../../images/clockblocker-nav.png"
+import hierarchyNavIcon from "../../images/hierarchy-nav.png"
+import isseiNavIcon from "../../images/issei-nav.png"
+---
+
+
+<SideBannerLayout title="Projects - Hugo Kawamata">
+  <header slot="header">
+    <h1>Projects</h1>
+    <h2>View my featured projects and other links</h2>
+  </header>
+  <main>
+    <div class="project-table">
+      <div class="project-cell">
+        <h3>My Blog</h3>
+        <a href="/projects/blog">
+          <img src={blogNavIcon} alt="Projects/Blog Nav" />
+        </a>
+        <a href="/projects/blog">
+          <img class="cell-image" src={blogCellImage} alt="A screenshot from my blog" />
+        </a>
+        <div class="other-links">
+          <a href="https://jimmy-dipthong.tumblr.com/tagged/jimmy%20blogthong">
+            <img src={blogAllPostsMicroBanner} alt="Link to all original blog posts" />
+          </a>
+          <a href="https://jimmy-dipthong.tumblr.com/tagged/langblr">
+            <img src={blogLangblrMicroBanner} alt="Link to all linguistics blog posts" />
+          </a>
+          <a href="https://jimmy-dipthong.tumblr.com/tagged/my%20art">
+            <img src={blogMyArtMicroBanner} alt="Link to all original art blog posts" />
+          </a>
+        </div>
+      </div>
+      <div class="project-cell">
+        <h3>Clockblocker</h3>
+        <a href="/projects/clockblocker">
+          <img src={clockblockerNavIcon} alt="Projects/Clockblocker Nav" />
+        </a>
+        <a href="/projects/clockblocker">
+          <img class="cell-image" src={clockblockerCellImage} alt="A screenshot from Clockblocker, a time management webapp" />
+        </a>
+        <div class="other-links">
+          <a href="https://clockblocker.netlify.app/">
+            <img src={webAppMicroBanner} alt="Link to the clockblocker site" />
+          </a>
+          <a href="https://github.com/HugoKawamata/clockblocker">
+            <img src={githubMicroBanner} alt="Link to the clockblocker github repo" />
+          </a>
+        </div>
+      </div>
+      <div class="project-cell">
+        <h3>Hierarchy</h3>
+        <a href="/projects/hierarchy">
+          <img src={hierarchyNavIcon} alt="Projects/Hierarchy Nav" />
+        </a>
+        <a href="/projects/hierarchy">
+          <img class="cell-image" src={hierarchyCellImage} alt="A photo of my card game, Hierarchy" />
+        </a>
+        <div class="other-links">
+          <a href="https://www.reddit.com/r/boardgames/comments/ahv6st/check_out_hierarchy_a_printable_simple_14_card/">
+            <img src={redditMicroBanner} alt="Link to Original Reddit post" />
+          </a>
+          <a href="https://www.kickstarter.com/projects/239309591/hierarchy-an-abstract-game-of-order-and-power">
+            <img src={kickstarterMicroBanner} alt="Link to Funded Kickstarter" />
+          </a>
+          <a href="https://buttonshygames.com/products/hierarchy">
+            <img src={shopPageMicroBanner} alt="Link to Buy Hierarchy" />
+          </a>
+        </div>
+      </div>
+      <div class="project-cell">
+        <h3>Issei</h3>
+        <a href="/projects/issei">
+          <img src={isseiNavIcon} alt="Projects/Issei Nav" />
+        </a>
+        <a href="/projects/issei">
+          <img class="cell-image" src={isseiCellImage} alt="A screenshot from Issei, my Japanese language app" />
+        </a>
+        <div class="other-links">
+        </div>
+      </div>
+    </div>
+  </main>
+</SideBannerLayout>
+
+<style>
+  .project-cell a {
+    text-decoration: none;
+  }
+  .project-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .project-cell {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0.5rem;
+  }
+  .cell-image {
+    width: 19rem;
+  }
+</style>
