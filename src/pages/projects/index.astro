@@ -17,6 +17,9 @@ import redditMicroBanner from "../../images/reddit-nav.png"
 import kickstarterMicroBanner from "../../images/kickstarter-nav.png"
 import shopPageMicroBanner from "../../images/button-shy-nav.png"
 
+import githubServerMicroBanner from "../../images/github-server-nav.png"
+import githubAppMicroBanner from "../../images/github-app-nav.png"
+
 import blogNavIcon from "../../images/blog-nav.png"
 import clockblockerNavIcon from "../../images/clockblocker-nav.png"
 import hierarchyNavIcon from "../../images/hierarchy-nav.png"
@@ -34,7 +37,7 @@ import isseiNavIcon from "../../images/issei-nav.png"
       <div class="project-cell">
         <h3>My Blog</h3>
         <a href="/projects/blog">
-          <img src={blogNavIcon} alt="Projects/Blog Nav" />
+          <img class="micro-banner" src={blogNavIcon} alt="Projects/Blog Nav" />
         </a>
         <a href="/projects/blog">
           <img class="cell-image" src={blogCellImage} alt="A screenshot from my blog" />
@@ -54,7 +57,7 @@ import isseiNavIcon from "../../images/issei-nav.png"
       <div class="project-cell">
         <h3>Clockblocker</h3>
         <a href="/projects/clockblocker">
-          <img src={clockblockerNavIcon} alt="Projects/Clockblocker Nav" />
+          <img class="micro-banner" src={clockblockerNavIcon} alt="Projects/Clockblocker Nav" />
         </a>
         <a href="/projects/clockblocker">
           <img class="cell-image" src={clockblockerCellImage} alt="A screenshot from Clockblocker, a time management webapp" />
@@ -71,7 +74,7 @@ import isseiNavIcon from "../../images/issei-nav.png"
       <div class="project-cell">
         <h3>Hierarchy</h3>
         <a href="/projects/hierarchy">
-          <img src={hierarchyNavIcon} alt="Projects/Hierarchy Nav" />
+          <img class="micro-banner" src={hierarchyNavIcon} alt="Projects/Hierarchy Nav" />
         </a>
         <a href="/projects/hierarchy">
           <img class="cell-image" src={hierarchyCellImage} alt="A photo of my card game, Hierarchy" />
@@ -91,12 +94,18 @@ import isseiNavIcon from "../../images/issei-nav.png"
       <div class="project-cell">
         <h3>Issei</h3>
         <a href="/projects/issei">
-          <img src={isseiNavIcon} alt="Projects/Issei Nav" />
+          <img class="micro-banner" src={isseiNavIcon} alt="Projects/Issei Nav" />
         </a>
         <a href="/projects/issei">
           <img class="cell-image" src={isseiCellImage} alt="A screenshot from Issei, my Japanese language app" />
         </a>
         <div class="other-links">
+          <a href="https://www.kickstarter.com/projects/239309591/hierarchy-an-abstract-game-of-order-and-power">
+            <img src={githubServerMicroBanner} alt="Link to GitHub repo of Issei's server and DB" />
+          </a>
+          <a href="https://buttonshygames.com/products/hierarchy">
+            <img src={githubAppMicroBanner} alt="Link to GitHub repo of Issei's React Native application" />
+          </a>
         </div>
       </div>
     </div>
@@ -104,6 +113,16 @@ import isseiNavIcon from "../../images/issei-nav.png"
 </SideBannerLayout>
 
 <style>
+  .other-links {
+    display: flex;
+    justify-content: space-between;
+  }
+  .other-links img {
+    width: 90px;
+  }
+  .micro-banner {
+    width: 90px;
+  }
   .project-cell a {
     text-decoration: none;
   }

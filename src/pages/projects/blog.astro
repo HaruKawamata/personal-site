@@ -3,6 +3,10 @@ import SideBannerLayout from "../../layouts/SideBannerLayout.astro"
 import starDivider from "../../images/star-divider.webp"
 import shishishiba from "../../images/shishishiba.png"
 import blogHeader from "../../images/blog-header.png"
+
+import blogAllPostsMicroBanner from "../../images/blog-all-posts-nav.png"
+import blogLangblrMicroBanner from "../../images/blog-langblr-nav.png"
+import blogMyArtMicroBanner from "../../images/blog-my-art-nav.png"
 ---
 
 
@@ -15,6 +19,17 @@ import blogHeader from "../../images/blog-header.png"
     <h2>Linguistics, Doodles, Semiotics and more...</h2>
   </header>
   <main>
+    <div class="links">
+      <a href="https://jimmy-dipthong.tumblr.com/tagged/jimmy%20blogthong">
+        <img src={blogAllPostsMicroBanner} alt="Link to all original blog posts" />
+      </a>
+      <a href="https://jimmy-dipthong.tumblr.com/tagged/langblr">
+        <img src={blogLangblrMicroBanner} alt="Link to all linguistics blog posts" />
+      </a>
+      <a href="https://jimmy-dipthong.tumblr.com/tagged/my%20art">
+        <img src={blogMyArtMicroBanner} alt="Link to all original art blog posts" />
+      </a>
+    </div>
     <p>
       The thing I work on the most is my <a href="https://jimmy-dipthong.tumblr.com/tagged/jimmy%20blogthong">Tumblr blog</a>.
       I go by "jimmy-dipthong" there (no particular reason for the name, I just thought it sounded funny and vaguely language-related).
@@ -86,6 +101,12 @@ import blogHeader from "../../images/blog-header.png"
 </SideBannerLayout>
 
 <style>
+  .links a {
+    text-decoration: none;
+  }
+  .links img {
+    width: 105px;
+  }
   .blog-header {
     max-width: 130ch;
   }
