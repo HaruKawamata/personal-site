@@ -1,0 +1,85 @@
+---
+import SideBannerLayout from "../../layouts/SideBannerLayout.astro"
+import isseiScreenshot from "../../images/issei-screenshot.png"
+import githubMicroBanner from "../../images/github-nav.png"
+---
+
+
+<SideBannerLayout title="Clockblocker">
+  <header slot="header">
+    <h1>Issei</h1>
+    <h2>A Japanese language learning app</h2>
+  </header>
+  <main>
+    <div class="links">
+      <a href="https://github.com/HugoKawamata/holistic-japanese">
+        <img src={githubMicroBanner} alt="Link to the Issei github repo" />
+      </a>
+    </div>
+    <div class="screenshot-and-text-container">
+      <div class="text-container">
+        <p>
+          Issei was a mobile app project written in React Native, with a GraphQL API, Express server backend and Postgres DB.
+          I worked on Issei during the height of the coronavirus pandemic, from March 2020 until about June 2020. The engineering
+          team at my job had our hours cut to 3 days a week, which meant I had a lot of extra time, which I used to work almost
+          full time on this project.
+        </p>
+        <p>
+          At the time, I had just come back from Japan - a trip that I spent 6 months studying Japanese for, for 3 hours or more
+          every day. I came up with the idea for the app during those 6 months. I realised how much more efficient my study
+          method had been compared to Duolingo or Japanese classes at school. I'd become passably conversational in Japanese
+          in just half a year. I'd learned more in that time than I did in 6 years of Japanese classes at school. Inspired in part
+          by <a href="">Matt Vs Japan</a>, I wanted to make an app that promoted context-based learning, with a focus on input.
+        </p>
+        <p>
+          The leading theory on language acquisition is that the speed at which you learn or "acquire" language is based mainly
+          on how many hours of "input" you receive. In other words, how much time you spend reading, listening, and watching
+          content in your target language. My app attempts to guide people into that way of learning.
+        </p>
+        <p>
+          The app is highly context-based. Often, people learning Japanese will rote learn characters without learning what
+          words they're used in. I did this too, but I noticed how much faster I picked up kanji when I saw them used in real
+          words. The app implements this way of thinking - when it teaches you kana, it actually teaches you words as well.
+          When it teaches you vocab, it teaches you grammar as well.
+        </p>
+        <p>
+          At the end of the major quarantine in June, I realised I didn't have the Japanese ability to continue writing lessons.
+          I was still learning, and it didn't make sense for me to be writing lessons as if I was a native speaker, so I put
+          the project on hold. I may come back to it one day, but for now it exists as a relic and snapshot of my programming
+          abilities at the time.
+        </p>
+        <p>
+          Features
+          <ul>
+            <li>Full hiragana and katakana courses</li>
+            <li>Spoken audio when typing out answers</li>
+            <li>Type Japanese characters with an English keyboard</li>
+            <li>Complete user/login system, tracks your progress</li>
+            <li>Simple spaced repetition algorithm</li>
+            <li>Uses emoji as well as English to explain meaning of words</li>
+          </ul>
+        </p>
+      </div>
+      <a href="https://github.com/HugoKawamata/holistic-japanese">
+        <img class="mobile-screenshot" src={isseiScreenshot} alt="A screenshot of the Issei mobile app" />
+      </a>
+    </div>
+  </main>
+</SideBannerLayout>
+
+<style>
+  .links a {
+    text-decoration: none;
+  }
+  .links img {
+    width: 105px;
+  }
+  .screenshot-and-text-container {
+    display: flex;
+  }
+  .mobile-screenshot {
+    flex-shrink: 1;
+    width: 10rem;
+    margin-left: 1rem;
+  }
+</style>
