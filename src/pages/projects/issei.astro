@@ -64,9 +64,11 @@ import githubAppMicroBanner from "../../images/github-app-nav.png"
           </ul>
         </p>
       </div>
-      <a href="https://github.com/HugoKawamata/holistic-japanese">
-        <img class="mobile-screenshot" src={isseiScreenshot} alt="A screenshot of the Issei mobile app" />
-      </a>
+      <div class="screenshot-container">
+        <a href="https://github.com/HugoKawamata/holistic-japanese">
+          <img class="mobile-screenshot" src={isseiScreenshot} alt="A screenshot of the Issei mobile app" />
+        </a>
+      </div>
     </div>
   </main>
 </SideBannerLayout>
@@ -80,10 +82,22 @@ import githubAppMicroBanner from "../../images/github-app-nav.png"
   }
   .screenshot-and-text-container {
     display: flex;
+    justify-content: center;
   }
   .mobile-screenshot {
     flex-shrink: 1;
     width: 10rem;
     margin-left: 1rem;
   }
+  .screenshot-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (max-width: 767px) {
+    .screenshot-and-text-container {
+      flex-wrap: wrap-reverse;
+    }
+  }
+
 </style>

@@ -169,6 +169,9 @@ const url = Astro.url
     list-style: none;
     padding-left: 1.5rem;
   }
+  #side-nav ul ul {
+    list-style-type: "↳";
+  }
   #side-nav li img {
     width: 105px;
   }
@@ -181,6 +184,7 @@ const url = Astro.url
     }
   }
   .menu-toggle {
+    font-family: "Times New Roman", serif;
     align-items: center;
     background-color: transparent;
     border: 0;
@@ -194,5 +198,6 @@ const url = Astro.url
   .menu-open-button {
     position: absolute;
     right: 0;
+    background-color: #222222;
   }
 </style>
