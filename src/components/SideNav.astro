@@ -10,7 +10,26 @@ import featuredPages from "../images/featured-pages.gif"
 const url = Astro.url
 ---
 <nav id="side-nav" class="display-none-if-mobile">
-  <h3><img src={featuredPages} alt="Featured Pages" /></h3>
+  <header>
+    <h3><img src={featuredPages} alt="Featured Pages" /></h3>
+    <button class="menu-toggle close-btn">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="w-6 h-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M6 18L18 6M6 6l12 12"></path>
+      </svg>
+      <span> Close</span>
+    </button>
+  </header>
+
   <p>Click the buttons below to visit our featured areas!</p>
   <ul>
     <li>
@@ -57,6 +76,71 @@ const url = Astro.url
     </li>
   </ul>
 </nav>
+<button class="menu-toggle menu-open-button">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke-width="1.5"
+    stroke="currentColor"
+    class="w-6 h-6"
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+    ></path>
+  </svg>
+  <span> Menu</span>
+</button>
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    const menuOverlay = document.getElementById("side-nav")
+    const menuToggles = document.querySelectorAll(".menu-toggle")
+
+    const menuIsOpen = () => {
+      const menuOverlay = document.getElementById("side-nav")
+      if (menuOverlay != null) { return menuOverlay.classList.contains("force-display-on-mobile") }
+      else { return false }
+    }
+
+    const focusFirstMenuItem = () => {
+      if (menuOverlay != null) {
+        const firstListItem = menuOverlay.querySelector("li a") as HTMLElement
+        firstListItem.focus()
+      }
+    }
+
+    document.addEventListener("focusin", () => {
+      if (menuOverlay != null && menuIsOpen()) {
+        focusFirstMenuItem()
+      }
+    })
+
+    window.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && menuOverlay != null && menuIsOpen()) {
+        menuOverlay.classList.remove("force-display-on-mobile")
+      }
+    })
+
+    menuToggles.forEach((button) => {
+      button.addEventListener("click", () => {
+        toggleMenu()
+      })
+    })
+
+    const toggleMenu = () => {
+      if (menuOverlay != null) {
+        menuOverlay.classList.toggle("force-display-on-mobile")
+        if (menuIsOpen()) {
+          focusFirstMenuItem()
+        }
+      }
+    }
+  }
+)
+</script>
 
 <style>
   #side-nav {
@@ -66,6 +150,11 @@ const url = Astro.url
     padding-right: 1.5rem;
     /* margin-top: 20vh; */
     max-width: 150px;
+    z-index: 99;
+  }
+  #side-nav header {
+    display: flex;
+    justify-content: space-between
   }
   #side-nav h3 {
     padding-left: 1rem;
@@ -84,8 +173,26 @@ const url = Astro.url
     width: 105px;
   }
   @media (max-width: 767px) {
-    .display-none-based-on-width {
-      display: none;
+    #side-nav {
+      position: fixed;
+      max-width: none;
+      width: 100vw;
+      height: 100vh;
     }
+  }
+  .menu-toggle {
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0;
+    gap: 0.25rem;
+    z-index: 11;
+  }
+
+  .menu-open-button {
+    position: absolute;
+    right: 0;
   }
 </style>

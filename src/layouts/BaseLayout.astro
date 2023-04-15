@@ -58,4 +58,18 @@ const { title } = Astro.props;
   main {
     max-width: 80ch;
   }
+
+  @media (min-width: 768px) {
+    .display-none-if-desktop {
+      display: none;
+    }
+	}
+  @media (max-width: 767px) {
+    .display-none-if-mobile {
+      display: none;
+    }
+    .force-display-on-mobile {
+      display: block;
+    }
+	}
 </style>

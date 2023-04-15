@@ -8,9 +8,9 @@ const { title } = Astro.props
 <BaseLayout title={title}>
   <slot name="header" />
   <div class="banner-bordered-content">
-    <BannerAd />
+    <div class="display-none-if-mobile"><BannerAd /></div>
     <slot />
-    <BannerAd />
+    <div class="display-none-if-mobile"><BannerAd /></div>
   </div>
 </BaseLayout>
 
@@ -20,4 +20,5 @@ const { title } = Astro.props
     display: flex;
     justify-content: space-evenly;
   }
+
 </style>
