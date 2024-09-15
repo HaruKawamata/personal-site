@@ -12,7 +12,7 @@ const url = Astro.url
 <nav id="side-nav" class="display-none-if-mobile">
   <header>
     <h3><img src={featuredPages} alt="Featured Pages" /></h3>
-    <button class="menu-toggle close-btn">
+    <button class="menu-toggle close-btn display-none-if-desktop">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -76,7 +76,7 @@ const url = Astro.url
     </li>
   </ul>
 </nav>
-<button class="menu-toggle menu-open-button">
+<button class="menu-toggle menu-open-button display-none-if-desktop">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
