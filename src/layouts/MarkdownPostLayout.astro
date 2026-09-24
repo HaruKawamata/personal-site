@@ -1,0 +1,13 @@
+---
+import SideBannerLayout from './SideBannerLayout.astro';
+const { frontmatter } = Astro.props;
+---
+<SideBannerLayout title={frontmatter.title}>
+  <header slot="header">
+    <h1>{frontmatter.title}</h1>
+    <h2>{frontmatter.description}</h2>
+  </header>
+  <main>
+    <slot />
+  </main>
+</SideBannerLayout>
