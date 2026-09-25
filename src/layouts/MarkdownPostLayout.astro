@@ -8,6 +8,15 @@ const { frontmatter } = Astro.props;
     <h2>{frontmatter.description}</h2>
   </header>
   <main>
+    <div class="post-image" style={`background-image: url('${frontmatter.image.url}')`} />
     <slot />
   </main>
 </SideBannerLayout>
+
+<style>
+  .post-image {
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+  }
+</style>
