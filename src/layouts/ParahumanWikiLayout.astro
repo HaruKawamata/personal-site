@@ -79,6 +79,8 @@ const { title } = Astro.props;
     border-bottom: none;
     background-color: #FFFFFF;
     margin-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .article {
     background-color: #FFFFFF;
@@ -100,5 +102,27 @@ const { title } = Astro.props;
   }
   .helpExpand ul {
     margin: 0;
+  }
+  .embeddedImage {
+    width: 600px;
+    background-color: #F0F0F0;
+    border: 1px solid #999999;
+    padding: 0.5rem;
+  }
+  .embeddedImage img {
+    width: 100%;
+  }
+  .embeddedImage p {
+    margin: 0;
+    margin-top: 0.5rem;
+  }
+  .embeddedImageSection {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .disambiguation {
+    margin: 1.5rem;
+    margin-left: 2rem;
   }
 </style>
