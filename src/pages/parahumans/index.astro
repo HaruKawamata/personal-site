@@ -1,0 +1,78 @@
+---
+import ParahumanWikiLayout from "../../layouts/ParahumanWikiLayout.astro"
+
+---
+<ParahumanWikiLayout>
+  <div slot="title">The Fort - Active Cape Groups</div>
+  <h2>Villain Groups</h2>
+  <div class="linkBoxes">
+    <div class="linkBox">
+      <a href="/parahumans/people">
+        <div class="icon">✊🏽</div>
+        <p>The People's Power</p>
+      </a>
+    </div>
+    <div class="linkBox">
+      <a href="/parahumans/nightwalkers">
+        <div class="icon">🔞</div>
+        <p>The Nightwalkers</p>
+      </a>
+    </div>
+    <div class="linkBox">
+      <a href="/parahumans/haribon">
+        <div class="icon">🏞️</div>
+        <p>The Haribon Foundation</p>
+      </a>
+      <div class="warning">EXTREMELY DANGEROUS - DO NOT APPROACH</div>
+    </div>
+    <div class="linkBox">
+      <a href="/parahumans/stringpullers">
+        <div class="icon">👤</div>
+        <p>Stringpullers</p>
+      </a>
+    </div>
+  </div>
+  <h2>Hero Groups</h2>
+  <div class="linkBoxes">
+    <div class="linkBox">
+      <a href="/parahumans/alliance">
+        <div class="icon">💠</div>
+        <p>The Alliance</p>
+      </a>
+    </div>
+    <div class="linkBox">
+      <a href="/parahumans/boomboom5">
+        <div class="icon">🎇</div>
+        <p>BoomBoom5</p>
+      </a>
+    </div>
+  </div>
+</ParahumanWikiLayout>
+
+<style>
+  .linkBoxes {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .linkBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    border: 1px solid #BBBBBB;
+  }
+  .linkBox a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  a .icon {
+    font-size: 10rem;
+    text-decoration: none;
+  }
+</style>

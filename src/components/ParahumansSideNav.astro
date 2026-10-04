@@ -1,0 +1,72 @@
+---
+import wikiLogo from "../images/parahumans/wikilogo.svg"
+---
+<nav id="sideNav">
+  <img src={wikiLogo}/>
+  <h2>The Fort Cape Wiki</h2>
+
+  <p>navigation</p>
+  <ul>
+    <li>
+      <a href="/parahumans">Main Page</a>
+    </li>
+    <li>
+      <a href="/villains">Villain Groups</a>
+    </li>
+    <li>
+      <a href="/heroes">Hero Groups</a>
+    </li>
+  </ul>
+  <p>toolbox</p>
+  <ul>
+    <li>
+      <a class="neverVisited" href=#>What links here</a>
+    </li>
+    <li>
+      <a class="neverVisited" href=#>Related changes</a>
+    </li>
+    <li>
+      <a class="neverVisited" href=#>Upload file</a>
+    </li>
+    <li>
+      <a class="neverVisited" href=#>Printable version</a>
+    </li>
+    <li>
+      <a class="neverVisited" href=#>Permanent link</a>
+    </li>
+    <li>
+      <a class="neverVisited" href=#>Cite this article</a>
+    </li>
+  </ul>
+</nav>
+
+<style>
+  #sideNav {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-right: 1rem;
+  }
+  #sideNav img {
+    padding: 1rem;
+  }
+  #sideNav h2 {
+    padding-left: 1rem;
+  }
+  #sideNav p {
+    padding-left: 1rem;
+    margin: 0;
+  }
+  #sideNav ul {
+    border: 1px solid #999999;
+    background-color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+  #sideNav ul ul {
+    list-style-type: "↳";
+  }
+  #sideNav li img {
+    width: 105px;
+  }
+</style>
