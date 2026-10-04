@@ -111,7 +111,8 @@ const { title } = Astro.props;
     margin: 0;
   }
   .embeddedImage {
-    width: 600px;
+    flex-shrink: 0;
+    width: 300px;
     background-color: #F0F0F0;
     border: 1px solid #999999;
     padding: 0.5rem;
@@ -126,6 +127,7 @@ const { title } = Astro.props;
   .embeddedImageSection {
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
     gap: 2rem;
   }
   .disambiguation {
