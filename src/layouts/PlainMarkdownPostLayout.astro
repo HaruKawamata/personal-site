@@ -1,0 +1,24 @@
+---
+const { frontmatter } = Astro.props;
+---
+<main>
+  <header>
+    <h1>{frontmatter.title}</h1>
+  </header>
+  <slot />
+</main>
+
+<style>
+@media (min-width: 768px) {
+  main {
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+}
+</style>
+<style is:global>
+blockquote {
+  border-left: 3px solid #999999;
+  padding-left: 1rem;
+}
+</style>

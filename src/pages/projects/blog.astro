@@ -12,7 +12,13 @@ const allPosts = Object.values(import.meta.glob('../posts/*.md', { eager: true }
   <main>
     <div class="post-grid">
       {
-        allPosts.map(
+        allPosts.sort((a, b) => {
+          if (a.frontmatter.pubDate > b.frontmatter.pubDate) {
+            return -1
+          } else {
+            return 1
+          }
+        }).map(
           (post: any, index: number) => (
             <div class="post-cell" style={`background-color: ${index % 2 ? '#333' : '#444'}`}>
               <a href={post.url}>

@@ -1,0 +1,99 @@
+---
+layout: ../../layouts/PlainMarkdownPostLayout.astro
+title: "Jonathan Strange & Mr Norrell and Subjectivity"
+pubDate: 2026-10-05
+description: "This book is so good it made me mad."
+image:
+    url: "/images/posts/jsmn.jpg"
+    alt: "The black cover of the first edition. It's plain black with the name of the book and author, and a raven in flight in the centre."
+tags: ["book", "essay"]
+mapsLink: "https://maps.app.goo.gl/LabUcP5CP2hNPXaG6"
+---
+
+> “Yes, indeed!” agreed Mr Norrell. “I should dearly love to know the truth of the matter.”
+>
+> “Ah, yes, well.” Lascelles gave a short, contemptuous laugh. “*Truth*…”
+ 
+
+Jonathan Strange & Mr Norrell is a book about the subjectivity of truth. It is a book that implores us to understand that our view of reality, what is normal, and what is valid knowledge, is not the only view. Through three key narrative elements, Clarke presents intertwining ideas and themes that all come back to this imperative:
+
+1. the silencing of Lady Pole and Stephen Black and the dismissal of their reality;
+2. the narrative use of madness; and
+3. the fact that magic belongs to those who question reality.
+
+The concepts that Clarke wants us to avoid taking for granted (subjective reality, normality, and valid knowledge) are closely related. Take germ theory. In our current society it is normal to believe that illness is often caused by germs. This normality constitutes a reality we experience — it affects how we think as well as extending into the material world. For example, our healthcare systems would look very different under a different view of reality. And the reason why germ theory is normalised and made part of “canon reality” is because of how we consider valid knowledge to be produced. In another age, things were very different. Knowledge that came from methods, people and places we now consider unthinkable was valid and commonplace, and vice versa. 
+
+We will see how this theme makes itself known through the plot, but even the setting of the book forces us to acknowledge the existence of alternative “realities” (meaning the combination of subjective reality, normality, and valid knowledge) within our own history. Several times we’re shown the cruelty of upper class white men towards servants, women, madmen, and people of other races, and the powerlessness of these victims[^1]. These details and events rarely concern the main characters or plot, and seem to be included with the express purpose of familiarising and shocking us with the norms of another age. On this, Clarke said:
+
+> …it was important that real and alternate history appeared to have converged. This meant that I needed to write the women and the servants, as far as possible, as they would have been written in a 19th-century novel.
+> 
+
+I believe she considered it important that the 1800s we saw in the book was similar to the 1800s of our own world, so that these culture shock moments would be that much more effective, and emphasise her ultimate point: there are more ways of viewing reality and knowledge than your own.
+
+# Part 1 — Epistemic Injustice[^2]
+
+The magic that creates Norrell’s grand reputation, the resurrection of Lady Pole, causes her to be spirited away each night to the fairy kingdom of Lost-Hope and forced to dance endlessly in dreary balls and attend grim processions in honour of her fairy host and tormentor, the Gentleman with the Thistle-Down Hair. The Gentleman also takes a liking to the Black butler of the Pole household, and subjects him to the same enchantment. The enchantment prevents them from speaking of their situation, and any attempts to communicate it turn to nonsense. As the exhaustion and magical weariness sets in, those around them conclude that Lady Pole is ill and mad, and that Stephen Black is afflicted with “low spirits” and melancholy.
+
+These two characters are subjected to a dramatised, magical form of epistemic injustice. Epistemic injustice is injustice concerning the victim as a source of knowledge, and Clarke is concerned with the idea of *valid* knowledge being subjective; the idea that knowledge isn’t valid inherently, but that some fallible system, socially constructed norms, or person of authority decides if it’s valid.  According to philosopher Miranda Fricker, there are two types of epistemic injustice, and both seem highly applicable.
+
+*Hermeneutical injustice* is when a person lacks the knowledge or language to explain their experiences. The oppression of women and racial minorities was and is facilitated in part by restricting their access to education, and by excluding certain information from curriculums. By preventing people from learning the injustice of what is happening to them, by preventing people from communicating about it, systems of power attempt to maintain their hold on the marginalised. Nothing could better describe Lady Pole and Stephen Black’s enchantment. They are literally rendered unable to communicate their troubles, no matter how many people are willing to listen to them.
+
+*Testimonial injustice* is when a person’s knowledge is considered invalid on the basis of who they are — their gender, race, class, etc. The prevalence of “mansplaining” shows how common this can be. Testimonial injustice can also indirectly cause hermeneutical injustice through the social maligning and invalidation of certain fields of study such as gender studies, resulting in the knowledge being less able to reach those who need it. The most striking example of this type in the book comes from a physician employed by Walter Pole (Lady Pole’s husband) who determines that there is nothing wrong with Lady Pole — she is simply sulking because of some perceived slight from her husband[^3]. Putting aside her inability to speak of her suffering, Lady Pole is in this case not even believed to be suffering at all!
+
+Epistemic injustice is a prevalent theme even outside of the Lost-Hope plot. Norrell is positioned as an embodiment of hermeneutical injustice. Before the events of the novel, he buys all the magical books in England so that no one else can have the knowledge in them, and controls which books Strange can read and which are locked away in his private library. He forces academic societies of magicians to disband. He controls what counts as valid knowledge of magic through newspaper articles and periodicals, and in doing so, attempts to shape the new *reality* of English magic to his vision. After all, if you control the bounds of someone’s knowledge, you control the bounds of their reality.
+
+The street magician Vinculus is also a victim of testimonial injustice. He tells nothing but the truth throughout the novel, yet he is viewed by everyone as a fraud because of his low birth and occupation. His destiny is to tell his prophecy to the two magicians, but neither of them take him seriously and much of what he says is forgotten. The only people who listen to him are Childermass and Stephen Black — they’re less susceptible to discounting his knowledge on the grounds of his low birth because they are both also servants.
+
+Our Overton window has shifted such that it is much more accepted (though not universally so) to acknowledge that the experiences of poor people, women, and Black people should be listened to. But Clarke was not just saying that these people’s views should be included in our knowledge and our reality, she was saying that everyone’s views should constitute our reality. The knowledge of women may make up more of our reality, but what about homeless people? Addicts? The mentally ill? The Arab world? Or in the opposite direction, incels and neo-Nazis[^4]? We today are just as dismissive as Lady Pole’s physician, we only choose different targets for our dismissals. Clarke implores us to consider and understand the experiences of those people who make us the most uncomfortable.
+
+# Part 2 — Madness
+
+Madness and mental health is one very potent example of how the reality we construct and what counts as valid knowledge shifts rapidly and radically. The concept of madness comes up a great deal over the course of the novel. Two chapters are entirely devoted to Strange’s visit to the mad King George III, and Clarke makes some pains to show us the inhumanity with which he is treated by the Willises, his “madhouse keepers”. Another chapter is a vignette of a British family making a visit to a friend-of-a-friend, a mad old woman who, they discover, lives with fifty cats and eats the birds and rodents they catch.
+
+As we learn through Strange’s study, the “Aureate” magicians of the Middle Ages considered madmen to have their own knowledge[^5], and this idea is not far from our own history. In Foucault’s *Madness and Civilization* he documents how madness was regarded as its own form of knowledge through the Middle Ages and the Renaissance, when knowledge was considered more subjective. With the advent of the Age of Enlightenment, valid knowledge had to be “objective”, and so those considered mad were removed from society and confined to madhouses. I think this mirroring of the fictional history with actual history was intentional — just look back at the quote I took from Clarke in the introduction.
+
+It’s ironic that the confinement of mad people was based on “objective” knowledge when you consider just how subjective mental health diagnoses are. For example, the DSM-5 defines delusion as a false belief held firmly despite clear contrary evidence (an already subjective definition), but even goes so far as to exclude such beliefs that are “ordinarily accepted by other members of the person's culture or subculture”. Thus, religious faith is excluded from being “delusional”, as would be widely believed falsehoods spread through state propaganda. Whatever determines what is “normal” also determines what is “mad”. The status quo keeps certain perspectives valid, and pushes others outside the realm of validity (this too is epistemic injustice!). We again see, through the example of madness, how normality, knowledge, and reality are inseparable and subjective.
+
+The book shows us two versions of madness that are only distinguishable through the omniscient lens of narration: sanity labelled as madness because it doesn’t conform with consensus reality, and true altered perceptions and hallucinations. Lady Pole is labelled as mad because she seems to have delusions of grand fairy balls and is enchanted to speak nonsense, yet she is sane. Meanwhile, King George and the cat woman have real altered perceptions. Jonathan Strange interestingly represents both. He makes himself mad with a magical tincture, and when he uses this controlled madness to discover that his wife is not in fact dead, but alive and spirited away to Faerie, this real discovery is seen as madness too. If madness is a perception of reality that does not match “consensus” reality, how can we differentiate between delusion and novel ideas? Norrell considers alternative perspectives, both madness and progressive thought, as the same type of danger. He is the elite, and so he is right to see them as threats to his power.
+
+In pointing out that normality, knowledge, and reality are subjective, the novel asks us to take others’ experience of reality seriously, no matter what it might be. At one point it would have been mad to think that women or Black people should vote. How can we, as biased and temporal human beings, know what is mad and what is sensible? We should only look at what is good and what is wrong, and to do that, we need to take “mad” perspectives into consideration too[^6].
+
+# Part 3 — Magic
+
+In the book, magical sensitivity seems to be something that varies between people[^7], but it’s not arbitrary or innate. Magic is done only by those who understand that the way things are now are not the way things always will be, or even the way things ought to be[^8]. Magic changes reality, and the mind that performs it must expect reality to change.
+
+The book opens with a question.
+
+> It was the most commonplace question in the world. It was a question which, sooner or later, every child in the kingdom asks his governess or his schoolmaster or his parent.
+> 
+
+I think it’s meaningful that the childish nature of the question is brought up. Who is better at questioning reality than children? Children question everything — they can take nothing for granted because everything is new. They have no preconceived notion of why something must be the way that it is. A child may ask “Why does the moon change shape?” and “Why are our neighbours poor?” with the same genuine curiosity. The child hungers for answers, like a scholar, but is fanciful, like a madman. Questioning everything means questioning injustice, but it also means questioning the moon. The same description fits the magicians[^9]. 
+
+We could all strive to be a little more childlike. Adults make paths for themselves and follow them blindly, only rarely stopping to think “is this really what I want?” Sometimes adults don’t even make paths for themselves — they follow a pre-prepared path that seems “normal”. A normal path must work for most people, they probably think to themselves. After all, it’s normal, and I’m normal! But the average person does not exist. Everyone is different from each other, and everyone is different from both the culturally approved Standard Person, and even from the hypothetical person with all the populace’s median attributes. An average path may be a starting point to build from, but it will never be the path that will bring you the best life. You must listen to yourself and question the world to build such a path.
+
+Strange is childlike, but he is not childlike enough to notice Arabella’s predicament. Strange builds a good path, with cobblestones made of passion and mortar made of self-determination. But that is the end of his questioning until he becomes mad. All the questions he wanted to ask were set into the path from the beginning, and he asked no more. Strange is a warning that questioning once is not enough. Built into our path should be that childlike scepticism.
+
+We must also realise that we’re not only building a path for ourselves, we’re collaboratively building a path for the world. The Raven King was a child king, and appeared as a young man into his third century of life. He was also considered semi-mad and had various fairylike sensibilities[^10]. The narrative device of the Raven King leaving England and causing the loss of English magic represents how, post-Enlightenment, the English were no longer ruled by subjectivity and unrestrained childlike questioning, but instead by naïve realism (what they would call objectivity) and the status quo. Under the Age of Enlightenment, science was *the* sanctioned form of questioning and knowledge, but it’s only one form. Science alone cannot ask and answer all the questions we need in order to make our world good and just. Science is like Strange, naïvely following his path of academia and research, never stopping to question the unusual circumstances of his wife’s enchantment.
+
+Through her depiction of epistemic injustice, Clarke shows us the negative consequences of dismissing and silencing marginalised experiences of normality-knowledge-reality. Through her depiction of madness, Clarke shows us that our experience of normality-knowledge-reality is not universal and what we consider “objective” can be just as subjective as anything. And through her depiction of magic, I think she shows us that understanding that our normality-knowledge-reality is not universal is a requirement to being able to bring about real change: for ourselves, and for the world.
+
+[^1]: To name a few, Laurence Strange’s attempted murder of his servant (which the other servants have no choice but to be complicit in); the way Vinculus is threatened with the workhouse; the abuse of the French engravers in Spitalfields; the Jewish ghetto in Venice.
+
+[^2]: I didn’t intend to mirror the three part structure of the book, but since I have already done so, I thought I may as well commit to the pastiche-of-a-pastiche with footnotes. I also notice belatedly that the parts roughly correspond to the parts of the novel itself: Norrell is Epistemic Injustice, Strange is Madness, and John Uskglass is Magic.
+
+[^3]: “Was there perhaps something that Lady Pole has set her heart upon? Well, if it were a small thing, like a new gown or a bonnet, why not let her have it since she wanted it so much? If it were a large thing like a house or a visit to Scotland, then perhaps it would be best to talk to her about it. Mr Baillie was sure that her ladyship was not an unreasonable person.” p. 174
+
+[^4]: There is a lot to be learned from these people’s experiences, even if their ideologies are repugnant. Imagine if the tools and techniques used to spread these ideologies were better understood by the general populace. If fascistic thinking were as easily identified as influenza, their techniques would be less effective and people who begin to fall into its pipeline could be rescued by those people in their lives who have the most power to do so. But instead we cordon them off and the identification of a friend or parent’s fall to fascism is usually the domain of powerless woke teens.
+
+[^5]: “They seem to have considered madness in quite a different light. They held madmen in a sort of reverence and thought they knew things sane men did not — things which might be useful to a magician.” p. 392
+
+[^6]: I am aware of the irony that choosing to accept this as valid knowledge is itself a value judgement.
+
+[^7]: Mr Segundus is affected by the enchantment of Lady Pole while the rest of the servants notice nothing; out of Strange’s three pupils, only one can manage to actually cast spells; and Mr Honeyfoot is oblivious to the magic Strange is doing at the Shadow House, while Segundus falls asleep and accidentally disrupts the dream spell.
+
+[^8]: At the start of the novel, Norrell views one aspect of reality differently to everyone else in England. He sees the revival of magic as obvious and inevitable. Yet he desires magical revolution in order to gain power and prestige - swapping out one status quo for another that he controls.
+Strange is like a precocious child in his challenges to reality. He doesn’t attempt to affect wider change, but decides that he will not follow any social rule he doesn’t agree with. He is shown to believe, more than any other male character, in the equality of men and women. He is shown to doubt and dismiss the importance of the customs of the era and to condescend to his servants. His contrary position culminates in his express desire (to Walter Pole, who represents the status quo) to tutor non-gentlemen in magic — men of low birth as well as women.
+
+[^9]: It’s important to note that although questioning fundamental forces (be they social or natural) is what enables one to do magic in this world, it does not mean you will change the world for the better. Norrell obsessively believes magic can be restored to England, but the magic he does and the changes he attempts to make are conservative and selfish.
+
+[^10]: “Chaston wrote that men and fairies both contain within them a faculty of reason and a faculty of magic. In men reason is strong and magic is weak. With fairies it is the other was around: magic comes very naturally to them, but by human standards they are barely sane.” p. 253
