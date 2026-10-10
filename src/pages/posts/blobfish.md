@@ -6,7 +6,7 @@ description: ""
 image:
     url: "/images/posts/blobfish/natural.jpg"
     alt: "A blobfish as it looks in its natural habitat. It looks like a regular dark grey fish."
-tags: ["gender", "essay"]
+tags: ["gender", "language", "essay"]
 ---
 
 My friend and I often talk about philosophy and gender, and we discovered a very helpful shorthand when talking about complex topics - the blobfish.
