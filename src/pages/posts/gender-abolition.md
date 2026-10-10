@@ -2,7 +2,7 @@
 layout: ../../layouts/PlainMarkdownPostLayout.astro
 title: "Gender Abolition: A Modular Essay"
 pubDate: 2024-09-21
-description: ""
+description: "Various interconnected thoughts relating to the question of gender abolition."
 image:
     url: "/images/posts/blobfish/decompressed.jpg"
     alt: "A blobfish after being brought to the surface and decompressed. It looks pink, bloated, and blobby."

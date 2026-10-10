@@ -2,11 +2,11 @@
 layout: ../../layouts/PlainMarkdownPostLayout.astro
 title: "Gendered Pronouns in Japanese vs English"
 pubDate: 2024-08-28
-description: ""
+description: "English pronouns are not a universal representation of gender."
 image:
     url: "/images/posts/japanese-english-pronouns/utena.jpg"
     alt: "A screencap from Revolutionary Girl Utena, an anime. It is a profile shot of Utena from the chest up, she is a teenage girl with long pink hair, dressed in a black and red sailor-style Japanese BOYS school uniform, with red epaulets on the shoulders that have dangling white tassles. The whole shot is framed as if it were a painting by a frame that looks as if it's made of wrought-iron rose stems, with pink roses in each of the four corners."
-tags: ["gender", "language", "utena", "essay"]
+tags: ["gender", "language", "japanese", "utena", "essay"]
 ---
 ## Gendered pronouns in Japanese vs English
 

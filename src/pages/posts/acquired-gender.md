@@ -2,7 +2,7 @@
 layout: ../../layouts/PlainMarkdownPostLayout.astro
 title: "The Model of Acquired Gender"
 pubDate: 2026-04-22
-description: ""
+description: "A satisfying model explaining the difference between internally felt identity and gender identity categories."
 image:
     url: "/images/posts/acquired-gender/model.png"
     alt: 'A visual model of acquired gender. It shows what it is NOT: an acquired gender of "woman" corresponding to a gender identity of "woman". Then it shows what it is: an acquired gender of a tesseract with question marks surrounding it corresponding to a gender identity of "woman".'

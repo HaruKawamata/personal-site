@@ -2,7 +2,7 @@
 layout: ../../layouts/PlainMarkdownPostLayout.astro
 title: "The Philosophical Blobfish"
 pubDate: 2024-09-04
-description: ""
+description: "Abstraction through language destroys pure thought. Translating our thoughts through language changes their meaning."
 image:
     url: "/images/posts/blobfish/natural.jpg"
     alt: "A blobfish as it looks in its natural habitat. It looks like a regular dark grey fish."
