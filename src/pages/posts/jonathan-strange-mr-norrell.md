@@ -4,7 +4,7 @@ title: "Jonathan Strange & Mr Norrell and Subjectivity"
 pubDate: 2026-10-05
 description: "This book is so good it made me mad."
 image:
-    url: "/images/posts/jsmn.jpg"
+    url: "/images/posts/jonathan-strange-mr-norrell/cover.jpg"
     alt: "The black cover of the first edition. It's plain black with the name of the book and author, and a raven in flight in the centre."
 tags: ["language", "gender", "book", "essay"]
 ---

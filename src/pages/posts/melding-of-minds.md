@@ -4,7 +4,7 @@ title: "Linguistic Shared Understanding"
 pubDate: 2024-08-08
 description: "Precursor thoughts that led me to the Blobfish idea."
 image:
-    url: "/images/posts/.jpg"
+    url: "/"
     alt: ""
 tags: ["language", "essay"]
 ---

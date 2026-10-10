@@ -33,7 +33,9 @@ const posts = allPosts
           (post: any, index: number) => (
             <div class="post-cell" style={`background-color: ${index % 2 ? '#333' : '#444'}`}>
               <a href={post.url}>
-                <div class="post-image" style={`background-image: url('${post.frontmatter.image.url}')`} />
+                <div class="post-image">
+                  <img src={post.frontmatter.image.url} alt={post.frontmatter.image.alt} />
+                </div>
                 <div>
                   <h3>{post.frontmatter.title}</h3>
                   <p>{post.frontmatter.description}</p>
@@ -62,11 +64,17 @@ const posts = allPosts
     display: flex;
     flex-direction: row;
   }
+  /* Tall images fill the height; wide images are capped at the width and centred vertically */
   .post-image {
-    width: 200px;
+    flex: 0 0 200px;
     height: 150px;
-    background-size: contain;
-    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-right: 1rem;
+  }
+  .post-image img {
+    max-width: 100%;
+    max-height: 100%;
   }
 </style>

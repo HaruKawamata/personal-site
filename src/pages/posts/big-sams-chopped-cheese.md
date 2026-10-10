@@ -4,7 +4,7 @@ title: "Big Sams - Chopped Cheese"
 pubDate: 2026-09-24
 description: "Stodgy bread undermines an otherwise great sandwich."
 image:
-    url: "/images/posts/big-sams-chopped-cheese.jpg"
+    url: "/images/posts/big-sams-chopped-cheese/chopped-cheese.jpg"
     alt: "A chopped cheese sandwich wrapped in alfoil. The contents are visible from where the sandwich has been cut in half and turned to the camera: Melted american cheese, chopped burger patties, and a bit of lettuce and tomato."
 tags: ["rosasafi", "sandwich", "deli sandwich", "chopped cheese", "big sams"]
 mapsLink: "https://maps.app.goo.gl/LabUcP5CP2hNPXaG6"
