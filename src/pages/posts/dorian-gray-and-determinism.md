@@ -5,7 +5,7 @@ pubDate: 2026-02-04
 description: "If all we are is a product of our influences, is any of our identity or personality even ours?"
 image:
     url: "/images/posts/dorian-gray-and-determinism/cover.jpg"
-    alt: 'A visual model of acquired gender. It shows what it is NOT: an acquired gender of "woman" corresponding to a gender identity of "woman". Then it shows what it is: an acquired gender of a tesseract with question marks surrounding it corresponding to a gender identity of "woman".'
+    alt: "The cover of the book 'The Picture of Dorian Gray'"
 tags: ["gender", "book", "essay"]
 ---
 
