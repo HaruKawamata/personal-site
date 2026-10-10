@@ -12,7 +12,7 @@ const url = Astro.url
 ---
 <nav id="side-nav" class="display-none-if-mobile">
   <header>
-    <h3><img src={featuredPages} alt="Featured Pages" /></h3>
+    <h3><img src={featuredPages.src} alt="Featured Pages" /></h3>
     <button class="menu-toggle close-btn display-none-if-desktop">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -35,41 +35,41 @@ const url = Astro.url
   <ul>
     <li>
       <a href="/" aria-current={url.pathname === "/" ? "page" : "false"}>
-        <img src={homeNavIcon} alt="Home Nav" />
+        <img src={homeNavIcon.src} alt="Home Nav" />
       </a> 
     </li>
     <li>
       <a href="/projects" aria-current={url.pathname === "/projects" ? "page" : "false"}>
-        <img src={projectsNavIcon} alt="Projects Nav" />
+        <img src={projectsNavIcon.src} alt="Projects Nav" />
       </a>
       <ul class="sub-list">
         <li>
           <a href="/projects/clockblocker" aria-current={url.pathname === "/projects/clockblocker" ? "page" : "false"}>
-            <img src={clockblockerNavIcon} alt="Projects/Clockblocker Nav" />
+            <img src={clockblockerNavIcon.src} alt="Projects/Clockblocker Nav" />
           </a>
         </li>
         <li>
           <a href="/projects/hierarchy" aria-current={url.pathname === "/projects/hierarchy" ? "page" : "false"}>
-            <img src={hierarchyNavIcon} alt="Projects/Hierarchy Nav" />
+            <img src={hierarchyNavIcon.src} alt="Projects/Hierarchy Nav" />
           </a>
         </li>
         <li>
           <a href="/projects/issei" aria-current={url.pathname === "/projects/issei" ? "page" : "false"}>
-            <img src={isseiNavIcon} alt="Projects/Issei Nav" />
+            <img src={isseiNavIcon.src} alt="Projects/Issei Nav" />
           </a>
         </li>
       </ul>
     </li>
     <li>
       <a href="/blog" aria-current={url.pathname === "/blog" ? "page" : "false"}>
-        <img src={blogNavIcon} alt="Blog Nav" />
+        <img src={blogNavIcon.src} alt="Blog Nav" />
       </a>
       <ul class="sub-list">
         {
           blogTags.map((blogTag) => (
             <li>
               <a href={`/blog/${blogTag.path}`} aria-current={url.pathname === `/blog/${blogTag.path}` ? "page" : "false"}>
-                <img src={blogTag.button} alt={`Blog/${blogTag.title} Nav`} />
+                <img src={blogTag.button.src} alt={`Blog/${blogTag.title} Nav`} />
               </a>
             </li>
           ))
@@ -83,7 +83,7 @@ const url = Astro.url
     </li> -->
     <li>
       <a href="/resume.pdf" aria-current={url.pathname === "/resume" ? "page" : "false"}>
-        <img src={resumeNavIcon} alt="Resume Nav" />
+        <img src={resumeNavIcon.src} alt="Resume Nav" />
       </a>
     </li>
   </ul>

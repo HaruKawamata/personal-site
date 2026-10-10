@@ -16,7 +16,7 @@
     ]
   },
   "dependencies": {
-    "astro": "^2.1.9"
+    "astro": "^7.3.8"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.46.1",
