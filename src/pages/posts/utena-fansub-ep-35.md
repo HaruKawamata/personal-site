@@ -8,6 +8,7 @@ image:
     alt: "A close-up of Akio's torso in his red shirt and purple tie against a blue sky, a lock of his silver hair falling over his shoulder. The subtitle reads \"Would that your love could be eternal...\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 35
+episodeTitle: "The Love That Blossomed In Wintertime"
 series:
     prev:
         url: "/posts/utena-fansub-ep-34"

@@ -8,6 +8,7 @@ image:
     alt: "A close-up of the lower half of a face: a blonde girl in a yellow uniform with pink fringed epaulettes holds a phone to her ear. The subtitle reads \"Hey Touga, where are you at?\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 31
+episodeTitle: "Her Tragedy"
 series:
     prev:
         url: "/posts/utena-fansub-ep-30"

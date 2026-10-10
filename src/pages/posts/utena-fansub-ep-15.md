@@ -8,6 +8,7 @@ image:
     alt: "A hand picks up a blue glass mug from a tray beside a second mug with pink banding, both filled with the creamy pale drink Miki made, next to a cream-coloured pitcher."
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 15
+episodeTitle: "The Landscape Framed By Kozue"
 series:
     prev:
         url: "/posts/utena-fansub-ep-14"

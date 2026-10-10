@@ -8,6 +8,7 @@ image:
     alt: "An overhead view of the academy's courtyard: two green lawns surrounded by tall arched buildings, with tiny students scattered across them. The subtitle reads \"Yeah, right. I bet she was just getting hysterical over nothing.\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 29
+episodeTitle: "Azure Paler Than The Sky"
 series:
     prev:
         url: "/posts/utena-fansub-ep-28"

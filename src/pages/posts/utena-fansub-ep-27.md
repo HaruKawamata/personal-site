@@ -8,6 +8,7 @@ image:
     alt: "Seen from above through a circular vignette, four girls in matching uniforms dance and pose on a tiled floor beside a doorway. The subtitle reads \"Super duper late! Super duper late! Nanami's a baby who's super duper late!\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 27
+episodeTitle: "Nanami’s Egg"
 series:
     prev:
         url: "/posts/utena-fansub-ep-26"

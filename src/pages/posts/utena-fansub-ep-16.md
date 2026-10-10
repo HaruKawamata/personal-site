@@ -8,6 +8,7 @@ image:
     alt: "Nanami, wearing a yellow jacket with fringed epaulettes, smiles brightly with a large silver cowbell hanging from a collar around her neck. The subtitle reads \"It's an \"almglocken\"!\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 16
+episodeTitle: "The Almglocken Of Happiness"
 series:
     prev:
         url: "/posts/utena-fansub-ep-15"

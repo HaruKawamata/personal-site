@@ -8,6 +8,7 @@ image:
     alt: "A glowing glass box outlined in red floats in a beam of blue light against darkness, a tiny black rose standing on its luminous turquoise floor."
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 14
+episodeTitle: "The Boys Of The Black Rose"
 series:
     prev:
         url: "/posts/utena-fansub-ep-13"

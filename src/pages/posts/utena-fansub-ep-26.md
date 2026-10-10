@@ -8,6 +8,7 @@ image:
     alt: "Akio, seen from behind on a white sofa, and Anthy standing near him in a large room lit by an orange sky. The subtitle reads \"When you think of her, what do you feel?\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 26
+episodeTitle: "Miki’s Birdhouse (The Sunlit Garden, Arrangement)"
 series:
     prev:
         url: "/posts/utena-fansub-ep-25"

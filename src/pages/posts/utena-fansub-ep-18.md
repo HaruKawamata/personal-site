@@ -8,6 +8,7 @@ image:
     alt: "Utena sits reading a book in the greenhouse while Anthy stands behind her holding a golden watering can and smiling. The subtitle reads \"If you loved someone, you'd understand.\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 18
+episodeTitle: "Mitsuru’s Growing Pains"
 series:
     prev:
         url: "/posts/utena-fansub-ep-17"

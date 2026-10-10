@@ -8,6 +8,7 @@ image:
     alt: "Shiori, a girl with short purple hair in a sailor uniform, smiles faintly inside an ornate black wrought-iron frame with a peach-coloured rose in each corner."
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 17
+episodeTitle: "Thorns Of Death"
 series:
     prev:
         url: "/posts/utena-fansub-ep-16"

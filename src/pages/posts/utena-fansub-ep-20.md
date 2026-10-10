@@ -8,6 +8,7 @@ image:
     alt: "Wakaba, wearing a leaf-shaped hair clip, looks into an oval mirror while Saionji stands behind her with his hands on her shoulders."
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 20
+episodeTitle: "Wakaba Flourishing"
 series:
     prev:
         url: "/posts/utena-fansub-ep-19"

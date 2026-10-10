@@ -8,6 +8,7 @@ image:
     alt: "A frame from the fairy tale opening of Revolutionary Girl Utena: a faceless silhouette with long pink hair inside an ornate black wrought-iron frame with a pink rose in each corner. The subtitle reads \"Casting the thought aside,\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 1
+episodeTitle: "The Rose Bride"
 series:
     next:
         url: "/posts/utena-fansub-ep-2"

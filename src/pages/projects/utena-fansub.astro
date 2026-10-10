@@ -1,0 +1,70 @@
+---
+import SideBannerLayout from "../../layouts/SideBannerLayout.astro"
+import notesMicroBanner from "@images/buttons/utena-notes.png"
+
+const allPosts: any[] = Object.values(import.meta.glob('../posts/*.md', { eager: true }))
+const episodes = allPosts
+  .filter((post) => post.frontmatter.tags?.includes("utena fansub"))
+  .sort((a, b) => a.frontmatter.episode - b.frontmatter.episode)
+---
+
+
+<SideBannerLayout title="Utena Fansub - Haru Kawamata">
+  <header slot="header">
+    <h1>Utena Fansub</h1>
+    <h2>A retranslation of Revolutionary Girl Utena</h2>
+  </header>
+  <main>
+    <div class="links">
+      <a href="/blog/utena-fansub">
+        <img src={notesMicroBanner.src} alt="Link to all Utena fansub translation notes" />
+      </a>
+    </div>
+    <img
+      class="utena-image"
+      src="/images/posts/japanese-english-pronouns/utena.jpg"
+      alt="A screencap from Revolutionary Girl Utena. Utena, a teenage girl with long pink hair in a black and red boys' school uniform, shown in profile inside a wrought-iron frame with pink roses in each corner."
+    />
+    <p>
+      On the 23rd of September 2024, <a href="https://tmblr.co/MRYPqo0RulLC0rahHPQsbIw">@dontbe-lasanya</a> and I
+      began a project to retranslate the anime Revolutionary Girl Utena. The project finished on the 7th of August
+      2025. The goals behind the project were to provide more natural dialogue between characters, do a better job of
+      conveying the themes, and provide a nonbinary perspective on Utena the character, and I believe we achieved them!
+    </p>
+    <p>
+      To summarise my translation approach in one sentence, I would say I focus on rewriting the script as though it
+      were originally written in the target language. This means, for example, never using honorifics like “sama” or
+      “senpai” in the English translation and instead making up for it by using ways of indicating relationships and
+      hierarchy in English such as changing the way characters speak around each other.
+    </p>
+    <p>
+      <a href="https://drive.google.com/drive/folders/1aL_GMtLpzKG7OvB82qAELeoCItD04L0p?usp=drive_link">Haru Dipthong's Utena Fansub - Google Drive</a>
+    </p>
+    <h3>Translation Notes</h3>
+    <ul class="episode-list">
+      {
+        episodes.map((post) => (
+          <li>
+            <a href={post.url}>Episode {post.frontmatter.episode} - {post.frontmatter.episodeTitle}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+</SideBannerLayout>
+
+<style>
+  .links a {
+    text-decoration: none;
+  }
+  .links img {
+    width: 105px;
+  }
+  .utena-image {
+    width: 100%;
+  }
+  .episode-list {
+    list-style: none;
+    padding-left: 0;
+  }
+</style>

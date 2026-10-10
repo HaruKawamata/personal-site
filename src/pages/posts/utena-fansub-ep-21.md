@@ -8,6 +8,7 @@ image:
     alt: "The episode 21 title card: pink watercolour roses inside an ornate black wrought-iron frame with a rose in each corner. It reads \"NASTY PESTS\", then \"悪い虫\", then \"DUEL : 21\"."
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 21
+episodeTitle: "Nasty Pests"
 series:
     prev:
         url: "/posts/utena-fansub-ep-20"

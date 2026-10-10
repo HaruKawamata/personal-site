@@ -5,9 +5,10 @@ pubDate: 2024-10-31
 description: "破廉恥にもほどがある"
 image:
     url: "/images/posts/utena-fansub-ep-10/image-1.png"
-    alt: "Nanami, in a dark dress with a yellow bow, stands glaring at a large grey box with two straps in a gloomy setting. The subtitle reads \"You got between me and my brother.\""
+    alt: "Nanami, in a dark dress with a yellow bow, stands glaring at a large grey box with two pieces of duct tape loosely holding it shut, in a gloomy setting. The subtitle reads \"You got between me and my brother.\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 10
+episodeTitle: "Nanami’s Precious One"
 series:
     prev:
         url: "/posts/utena-fansub-ep-9"

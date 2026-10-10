@@ -8,6 +8,7 @@ image:
     alt: "The episode 23 title card: large pink roses framed by black wrought iron with a coral rose in each corner. The English title reads \"WHAT MAKES A DUELLIST\" above the Japanese \"デュエリストの条件\" and \"DUEL : 23\"."
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 23
+episodeTitle: "What Makes A Duellist"
 series:
     prev:
         url: "/posts/utena-fansub-ep-22"

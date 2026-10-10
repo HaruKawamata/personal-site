@@ -17,6 +17,9 @@ const posts = allPosts
       return 1
     }
   })
+if (blogTag.oldestFirst) {
+  posts.reverse()
+}
 ---
 
 

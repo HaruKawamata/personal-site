@@ -8,6 +8,7 @@ image:
     alt: "A screencap from Revolutionary Girl Utena, an anime. It is a profile shot of Utena from the chest up, she is a teenage girl with long pink hair, dressed in a black and red sailor-style Japanese BOYS school uniform, with red epaulets on the shoulders that have dangling white tassles. The whole shot is framed as if it were a painting by a frame that looks as if it's made of wrought-iron rose stems, with pink roses in each of the four corners."
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 2
+episodeTitle: "For Whom The Rose Smiles"
 series:
     prev:
         url: "/posts/utena-fansub-ep-1"

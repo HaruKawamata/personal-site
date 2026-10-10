@@ -8,6 +8,7 @@ image:
     alt: "A meme made from a frame of a student with long wavy blonde hair in a school uniform, looking dazed and exhausted in a dim room with books and roses behind her. The caption reads \"ME WHEN I\" at the top and \"WHEN I FINISH TRANSLATING UTENA EPISODE 4 THE SUNLIT GARDEN PRELUDE\" at the bottom."
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 4
+episodeTitle: "The Sunlit Garden Prelude"
 series:
     prev:
         url: "/posts/utena-fansub-ep-3"

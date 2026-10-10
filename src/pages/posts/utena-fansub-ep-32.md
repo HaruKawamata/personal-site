@@ -8,6 +8,7 @@ image:
     alt: "Utena and Nanami duelling against a pale background: Utena lunges forward with her sword outstretched while Nanami, in her yellow duelling outfit, leaps above her with a curved blade."
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 32
+episodeTitle: "The Romance Of The Dancing Girls"
 series:
     prev:
         url: "/posts/utena-fansub-ep-31"

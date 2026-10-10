@@ -8,6 +8,7 @@ image:
     alt: "Against an orange sky, Touga rides a bicycle with Saionji lounging on the back, passing a pedestal vase of red, blue, yellow and purple roses. The subtitle reads \"I'm sure they have received their letter too.\", with \"they\" in italics."
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 37
+episodeTitle: "The One Who Will Revolutionise The World"
 series:
     prev:
         url: "/posts/utena-fansub-ep-36"

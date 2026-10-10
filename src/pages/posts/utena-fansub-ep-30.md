@@ -8,6 +8,7 @@ image:
     alt: "Utena stands beside a red convertible with two people inside, under an orange sunset sky and autumn trees. The subtitle reads \"Because! It wouldn't be a date if it wasn't just the two of us.\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 30
+episodeTitle: "The Barefoot Girl"
 series:
     prev:
         url: "/posts/utena-fansub-ep-29"

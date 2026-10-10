@@ -8,6 +8,7 @@ image:
     alt: "A shadow play girl silhouette in a cap and kerchief, gripping the handles of a ship's wheel in front of a large painted pink rose. The subtitle reads \"My oh my, Captain, my Captain!\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 5
+episodeTitle: "The Sunlit Garden Finale"
 series:
     prev:
         url: "/posts/utena-fansub-ep-4"

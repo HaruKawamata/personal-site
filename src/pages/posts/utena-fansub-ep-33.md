@@ -8,6 +8,7 @@ image:
     alt: "A dark blue night sky fading to black, with the tops of a few lit lamps at the bottom of the frame. The subtitle reads \"If you're with someone special, go make tonight last forever!\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 33
+episodeTitle: "The Prince Who Runs Through The Night"
 series:
     prev:
         url: "/posts/utena-fansub-ep-32"

@@ -8,6 +8,7 @@ image:
     alt: "A close-up of a large pale peach rose against a black background. The subtitle reads \"Believe in miracles, and your love will be returned.\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 7
+episodeTitle: "Unfulfilled Juri"
 series:
     prev:
         url: "/posts/utena-fansub-ep-6"
