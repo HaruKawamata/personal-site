@@ -8,6 +8,7 @@ image:
     alt: "Miki and Juri, in their white student council uniforms, seen through the bars of a window frame; Juri stands with her arms crossed. The subtitle reads \"Looking at them now, I only see a girl.\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 36
+episodeTitle: "And The Doors Of Night Open"
 series:
     prev:
         url: "/posts/utena-fansub-ep-35"

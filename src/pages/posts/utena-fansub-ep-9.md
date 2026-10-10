@@ -8,6 +8,7 @@ image:
     alt: "An overhead shot of black coffins marked with red rose crests; young Touga, with red hair, and young Saionji, with green hair, stand by an open coffin where a pink-haired girl lies among pale petals."
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 9
+episodeTitle: "The Castle Said To Hold Eternity"
 series:
     prev:
         url: "/posts/utena-fansub-ep-8"

@@ -8,6 +8,7 @@ image:
     alt: "Wakaba, with brown hair in buns, pulls an exasperated face in the foreground while Utena stands behind her looking glum, both in school uniforms under a blue sky and green trees. The subtitle reads \"I guess they like it.\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 12
+episodeTitle: "For Friendship, Perhaps"
 series:
     prev:
         url: "/posts/utena-fansub-ep-11"

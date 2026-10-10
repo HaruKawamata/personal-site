@@ -8,6 +8,7 @@ image:
     alt: "Utena and Wakaba sit silhouetted on a grassy hillside under a large tree, with a blue sky and an arched aqueduct behind them. The subtitle reads \"You're such a normal girl, Wakaba.\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 19
+episodeTitle: "The Song Of The Fallen Kingdom"
 series:
     prev:
         url: "/posts/utena-fansub-ep-18"

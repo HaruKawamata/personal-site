@@ -8,6 +8,7 @@ image:
     alt: "The episode 25 title card: large pink roses framed by black wrought iron with a coral rose in each corner. The English title reads \"ETERNAL APOCALYPSE FOR TWO\" above the Japanese \"ふたりの永遠黙示録\" and \"DUEL : 25\"."
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 25
+episodeTitle: "Eternal Apocalypse For Two"
 series:
     prev:
         url: "/posts/utena-fansub-ep-24"

@@ -8,6 +8,7 @@ image:
     alt: "A tiny silhouetted figure stands beside an ornate bench beneath dark crossing beams, against a vast glittering orange-red background. The subtitle reads \"And you... You must feel...\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 28
+episodeTitle: "Whispers In The Dark"
 series:
     prev:
         url: "/posts/utena-fansub-ep-27"

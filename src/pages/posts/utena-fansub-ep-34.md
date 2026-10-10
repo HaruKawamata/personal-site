@@ -8,6 +8,7 @@ image:
     alt: "A shadow-play silhouette of a girl with pigtails and a short skirt, carrying a bag, walking across a pink stage curtain beneath a stylised rose shape. The subtitle reads \"The untold, untellable story... The Tale of the Rose!\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 34
+episodeTitle: "The Rose Signet"
 series:
     prev:
         url: "/posts/utena-fansub-ep-33"

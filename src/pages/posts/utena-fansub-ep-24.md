@@ -8,6 +8,7 @@ image:
     alt: "A grey shadow cast on a pale curtain: a small, rounded, hunched figure beside a looped cord. The subtitle reads \"He's grinding his little teeth.\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 24
+episodeTitle: "The Secret Nanami Diary"
 series:
     prev:
         url: "/posts/utena-fansub-ep-23"

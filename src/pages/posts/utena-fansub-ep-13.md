@@ -8,6 +8,7 @@ image:
     alt: "A red title card framed by dark wrought-iron scrollwork with a rose in each corner, bearing the French word \"soi\" in large italic letters. The subtitle reads \"the Duel by the name of Self.\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 13
+episodeTitle: "Tracing a Path"
 series:
     prev:
         url: "/posts/utena-fansub-ep-12"

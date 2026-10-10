@@ -8,6 +8,7 @@ image:
     alt: "Two black silhouettes face off with swords against a glowing red backdrop, one with long flowing hair and one taller figure raising a sword, while Anthy stands small between them in a long red dress."
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 11
+episodeTitle: "Graceful And Ruthless; The One Who Picks The Flower"
 series:
     prev:
         url: "/posts/utena-fansub-ep-10"

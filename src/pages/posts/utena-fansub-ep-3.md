@@ -8,6 +8,7 @@ image:
     alt: "A sketchy, watercolour-textured frame from the ball in episode 3: a crowd of faceless students with blank white eyes stare out, including one with wavy purple hair in the centre and several blond students around them."
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 3
+episodeTitle: "On The Night Of The Ball"
 series:
     prev:
         url: "/posts/utena-fansub-ep-2"

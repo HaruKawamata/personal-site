@@ -8,6 +8,7 @@ image:
     alt: "Nanami, in her yellow student council uniform, frowns at Miki, whose blue-haired profile fills the foreground against a red background. The subtitle reads \"I wish you'd put your little birdies to work finding out just who is behind this.\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 22
+episodeTitle: "Nemuro Memorial Hall"
 series:
     prev:
         url: "/posts/utena-fansub-ep-21"

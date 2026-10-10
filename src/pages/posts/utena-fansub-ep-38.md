@@ -8,6 +8,7 @@ image:
     alt: "Utena, in a pink gown, points a sword at Akio, who stands in white prince's clothes, in front of a giant ornate purple sphere with an upside-down castle and sword hanging above. The subtitle reads \"the unadulterated will to be a prince will fade from your soul.\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 38
+episodeTitle: "The End Of The World"
 series:
     prev:
         url: "/posts/utena-fansub-ep-37"

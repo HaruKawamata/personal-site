@@ -8,6 +8,7 @@ image:
     alt: "A page from Saionji's exchange diary with a crude doodle of a green-haired Saionji with a sword trampling a cartoon Utena while a dark-skinned, purple-haired Anthy in a red dress clings to him, surrounded by handwritten Japanese. Added English labels read \"STUPID TENJOU\" and \"DYKE\" next to the kanji 天上 and 男女, and \"P.S. SORRY FOR THE RANT...\" beside the signature. The subtitle reads \"\"I'll rip apart that annoying, ugly dyke\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 8
+episodeTitle: "Curried High Trip"
 series:
     prev:
         url: "/posts/utena-fansub-ep-7"

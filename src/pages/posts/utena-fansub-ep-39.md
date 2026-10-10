@@ -8,6 +8,7 @@ image:
     alt: "Akio, in a white prince's uniform with long lavender hair, looks down at Anthy, who wears a red dress and clutches her chest as she looks up at him against a fiery red-orange background. The subtitle reads \"You know everything about the world, and that is why you chose this path.\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 39
+episodeTitle: "Someday, Let’s Shine Together"
 series:
     prev:
         url: "/posts/utena-fansub-ep-38"

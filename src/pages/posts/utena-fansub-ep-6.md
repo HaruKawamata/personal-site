@@ -8,6 +8,7 @@ image:
     alt: "Utena and Miki stand by a school window while Saionji, in a black kendo top and purple hakama, walks past with his eyes closed and a hand on his chest. The subtitle reads \"No one cares, dude.\""
 tags: ["utena fansub", "utena", "japanese", "translation"]
 episode: 6
+episodeTitle: "Take Care, Miss Nanami"
 series:
     prev:
         url: "/posts/utena-fansub-ep-5"
