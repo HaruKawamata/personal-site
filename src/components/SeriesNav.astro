@@ -1,0 +1,28 @@
+---
+export interface Props {
+  series?: {
+    prev?: { url: string; title: string };
+    next?: { url: string; title: string };
+  };
+}
+
+const { series } = Astro.props;
+---
+{series && (
+  <nav class="series-nav">
+    {series.prev ? <a class="prev" href={series.prev.url}>← {series.prev.title}</a> : <span />}
+    {series.next ? <a class="next" href={series.next.url}>{series.next.title} →</a> : <span />}
+  </nav>
+)}
+
+<style>
+  .series-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+  .next {
+    text-align: right;
+  }
+</style>

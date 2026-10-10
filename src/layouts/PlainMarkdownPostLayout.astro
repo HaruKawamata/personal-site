@@ -1,4 +1,5 @@
 ---
+import SeriesNav from "../components/SeriesNav.astro"
 const { frontmatter } = Astro.props;
 ---
 <!DOCTYPE html>
@@ -15,7 +16,9 @@ const { frontmatter } = Astro.props;
       <header>
         <h1>{frontmatter.title}</h1>
       </header>
+      <SeriesNav series={frontmatter.series} />
       <slot />
+      <SeriesNav series={frontmatter.series} />
     </main>
   </body>
 </html>

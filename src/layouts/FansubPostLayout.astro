@@ -1,0 +1,29 @@
+---
+import PlainMarkdownPostLayout from "./PlainMarkdownPostLayout.astro"
+const { frontmatter } = Astro.props;
+---
+<PlainMarkdownPostLayout frontmatter={frontmatter}>
+  <slot />
+</PlainMarkdownPostLayout>
+
+<!-- Highlight colours that pair Japanese lines with their translations (Tumblr's text palette) -->
+<style is:global>
+.color-red {
+  color: #ff4930;
+}
+.color-orange {
+  color: #ff8a00;
+}
+.color-green {
+  color: #00cf35;
+}
+.color-blue {
+  color: #00b8ff;
+}
+.color-purple {
+  color: #7c5cff;
+}
+.color-pink {
+  color: #ff62ce;
+}
+</style>
