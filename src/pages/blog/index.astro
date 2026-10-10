@@ -1,0 +1,45 @@
+---
+import SideBannerLayout from "../../layouts/SideBannerLayout.astro"
+import { blogTags } from "../../data/blogTags"
+---
+
+
+<SideBannerLayout title="My Blog - Haru Kawamata">
+  <header slot="header">
+    <h1>Blog</h1>
+    <h2>Pick a topic below</h2>
+  </header>
+  <main>
+    <div class="tag-table">
+      {
+        blogTags.map((blogTag) => (
+          <div class="tag-cell">
+            <h3>{blogTag.title}</h3>
+            <a href={`/blog/${blogTag.path}`}>
+              <img class="micro-banner" src={blogTag.button} alt={`Blog/${blogTag.title} Nav`} />
+            </a>
+          </div>
+        ))
+      }
+    </div>
+  </main>
+</SideBannerLayout>
+
+<style>
+  .micro-banner {
+    width: 90px;
+  }
+  .tag-cell a {
+    text-decoration: none;
+  }
+  .tag-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .tag-cell {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0.5rem;
+  }
+</style>

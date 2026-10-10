@@ -6,7 +6,7 @@ description: "Stodgy bread undermines an otherwise great sandwich."
 image:
     url: "/images/posts/big-sams-chopped-cheese.jpg"
     alt: "A chopped cheese sandwich wrapped in alfoil. The contents are visible from where the sandwich has been cut in half and turned to the camera: Melted american cheese, chopped burger patties, and a bit of lettuce and tomato."
-tags: ["sandwich", "deli sandwich", "chopped cheese", "big sams"]
+tags: ["rosasafi", "sandwich", "deli sandwich", "chopped cheese", "big sams"]
 mapsLink: "https://maps.app.goo.gl/LabUcP5CP2hNPXaG6"
 ---
 The chopped cheese and the Philly cheesesteak are two sandwiches that are very often quite disappointing, but I can't help ordering one every time I see them on a menu. The reason being, when they hit, they fucking hit. Just one more spin of the roulette wheel, one more blackjack hand, one more cheesesteak! I'm due! I'm due!

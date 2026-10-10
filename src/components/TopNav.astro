@@ -1,7 +1,6 @@
 ---
 import homeNavIcon from "@images/nav/home.png"
 import projectsNavIcon from "@images/nav/projects.png"
-import blogNavIcon from "@images/nav/blog.png"
 import clockblockerNavIcon from "@images/nav/clockblocker.png"
 import hierarchyNavIcon from "@images/nav/hierarchy.png"
 import isseiNavIcon from "@images/nav/issei.png"
@@ -20,11 +19,6 @@ const url = Astro.url
         <img src={projectsNavIcon} alt="Projects Nav" />
       </a>
       <ul class="sub-list">
-        <li>
-          <a href="projects/blog" aria-current={url.pathname === "/projects/blog" ? "page" : "false"}>
-            <img src={blogNavIcon} alt="Projects/Blog Nav" />
-          </a>
-        </li>
         <li>
           <a href="projects/clockblocker" aria-current={url.pathname === "/projects/clockblocker" ? "page" : "false"}>
             <img src={clockblockerNavIcon} alt="Projects/Clockblocker Nav" />

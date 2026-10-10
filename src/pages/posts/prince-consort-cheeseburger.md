@@ -6,7 +6,7 @@ description: 'An above average rendition of a below average recipe.'
 image:
     url: '/images/posts/prince-consort-cheeseburger.webp'
     alt: 'A professional photo of the cheeseburger showcasing the pickes, sauce, and american cheese. Apologies for no shot of my own, I forgot to take the photo before I ate.'
-tags: ["burger", "cheeseburger", "prince consort"]
+tags: ["rosasafi", "burger", "cheeseburger", "prince consort"]
 mapsLink: https://maps.app.goo.gl/ogwbpUJupxCTMaCe7
 ---
 It should be said from the outset that I'm not a fan of plain cheeseburgers. To me they are a childish, unadventurous thing to order. I was once a picky eater, and making the efforts to grow past that is one of the best things I've ever done for myself. A burger is always better with a bit of lettuce and tomato. And so the Plain Cheeseburger (along with the Hawaiian pizza) is a prime example of a food that reminds me of a time when I was afraid to eat outside my comfort zone. I would never order one unless there were extenuating circumstances.

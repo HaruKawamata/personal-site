@@ -1,24 +1,35 @@
 ---
 import SideBannerLayout from "../../layouts/SideBannerLayout.astro"
-const allPosts = Object.values(import.meta.glob('../posts/*.md', { eager: true }));
+import { blogTags } from "../../data/blogTags"
+
+export function getStaticPaths() {
+  return blogTags.map((blogTag) => ({ params: { tag: blogTag.path }, props: { blogTag } }))
+}
+
+const { blogTag } = Astro.props
+const allPosts: any[] = Object.values(import.meta.glob('../posts/*.md', { eager: true }))
+const posts = allPosts
+  .filter((post) => blogTag.tag === null || post.frontmatter.tags?.includes(blogTag.tag))
+  .sort((a, b) => {
+    if (a.frontmatter.pubDate > b.frontmatter.pubDate) {
+      return -1
+    } else {
+      return 1
+    }
+  })
 ---
 
 
-<SideBannerLayout title="My Blog - Haru Kawamata">
+<SideBannerLayout title={`${blogTag.title} - Haru Kawamata`}>
   <header slot="header">
-    <h1>ROSASAFI</h1>
-    <h2>Reviews of sandwiches and sandwich adjacent food items</h2>
+    <h1>{blogTag.title}</h1>
+    <h2>{blogTag.description}</h2>
   </header>
   <main>
     <div class="post-grid">
+      {posts.length === 0 && <p>No posts yet.</p>}
       {
-        allPosts.sort((a, b) => {
-          if (a.frontmatter.pubDate > b.frontmatter.pubDate) {
-            return -1
-          } else {
-            return 1
-          }
-        }).map(
+        posts.map(
           (post: any, index: number) => (
             <div class="post-cell" style={`background-color: ${index % 2 ? '#333' : '#444'}`}>
               <a href={post.url}>
@@ -37,12 +48,6 @@ const allPosts = Object.values(import.meta.glob('../posts/*.md', { eager: true }
 </SideBannerLayout>
 
 <style>
-  .links a {
-    text-decoration: none;
-  }
-  .links img {
-    width: 105px;
-  }
   .post-grid {
     display: flex;
     flex-wrap: wrap;

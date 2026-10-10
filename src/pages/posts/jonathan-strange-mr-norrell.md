@@ -6,7 +6,7 @@ description: "This book is so good it made me mad."
 image:
     url: "/images/posts/jsmn.jpg"
     alt: "The black cover of the first edition. It's plain black with the name of the book and author, and a raven in flight in the centre."
-tags: ["book", "essay"]
+tags: ["language", "gender", "book", "essay"]
 mapsLink: "https://maps.app.goo.gl/LabUcP5CP2hNPXaG6"
 ---
 
