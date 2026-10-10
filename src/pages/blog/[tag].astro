@@ -39,6 +39,7 @@ const posts = allPosts
                 <div>
                   <h3>{post.frontmatter.title}</h3>
                   <p>{post.frontmatter.description}</p>
+                  <p>{new Date(post.frontmatter.pubDate).toLocaleDateString("en-AU", { dateStyle: "medium", timeZone: "UTC" })}</p>
                 </div>
               </a>
             </div>
