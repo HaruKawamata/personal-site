@@ -6,7 +6,7 @@ description: "Some precursor thought that I expand on in later posts."
 image:
     url: "/images/posts/gender-language-parallels/krashen-butler.jpg"
     alt: "A portrait of Steven Krashen next to a portrait of Judith Butler."
-tags: ["gender", "essay"]
+tags: ["gender", "language", "essay"]
 ---
 
 I’ve been doing a lot of reading on gender recently, including Judith Butler’s *Gender Trouble* and Avgi Saketopoulou and Ann Pellegrini’s *Gender Without Identity*, and I’ve found several interesting parallels between gender and language.
