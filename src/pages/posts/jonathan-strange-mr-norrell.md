@@ -7,7 +7,6 @@ image:
     url: "/images/posts/jsmn.jpg"
     alt: "The black cover of the first edition. It's plain black with the name of the book and author, and a raven in flight in the centre."
 tags: ["language", "gender", "book", "essay"]
-mapsLink: "https://maps.app.goo.gl/LabUcP5CP2hNPXaG6"
 ---
 
 > “Yes, indeed!” agreed Mr Norrell. “I should dearly love to know the truth of the matter.”

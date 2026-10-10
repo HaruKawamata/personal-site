@@ -5,7 +5,7 @@ pubDate: 2026-09-24
 description: 'An above average rendition of a below average recipe.'
 image:
     url: '/images/posts/prince-consort-cheeseburger.webp'
-    alt: 'A professional photo of the cheeseburger showcasing the pickes, sauce, and american cheese. Apologies for no shot of my own, I forgot to take the photo before I ate.'
+    alt: 'A professional photo of the cheeseburger showcasing the pickles, sauce, and american cheese. Apologies for no shot of my own, I forgot to take the photo before I ate.'
 tags: ["rosasafi", "burger", "cheeseburger", "prince consort"]
 mapsLink: https://maps.app.goo.gl/ogwbpUJupxCTMaCe7
 ---

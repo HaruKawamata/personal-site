@@ -6,7 +6,7 @@ description: "A satisfying model explaining the difference between internally fe
 image:
     url: "/images/posts/acquired-gender/model.png"
     alt: 'A visual model of acquired gender. It shows what it is NOT: an acquired gender of "woman" corresponding to a gender identity of "woman". Then it shows what it is: an acquired gender of a tesseract with question marks surrounding it corresponding to a gender identity of "woman".'
-tags: ["gender", "essay"]
+tags: ["gender", "language", "essay"]
 ---
 In *Whipping Girl*, Julia Serano proposes a model of gender that revolves around the idea of “subconscious sex”.
 
