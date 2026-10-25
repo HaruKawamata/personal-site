@@ -1,0 +1,33 @@
+---
+layout: ../../layouts/PlainMarkdownPostLayout.astro
+title: "Mubbs and Frackles"
+pubDate: 2026-10-25
+description: "There is no one 'true' description of each category."
+image:
+    url: "/images/posts/mubbs-and-frackles/bloody-mary.jpg"
+    alt: 'A Bloody Mary cocktail'
+tags: ["gender", "language", "essay"]
+---
+Imagine a human civilisation who lives in an area teeming with a type of sexually dimorphic animal whose males taste delicious and are often used in cooking, while the females have inedible, poisonous flesh. They would certainly have different words for the males and the females, and they might not even know that they are the same species — perhaps the animals breed in a particularly mysterious way. They might call the males “mubbs” and the females “frackles”.
+
+As that human civilisation becomes more like ours in terms of its science and biological taxonomy, they discover that the two animals are actually the same animal. Scientists choose to call the new general category, consisting of both males and females, “mubbs”, because the females are simply less important to the culture and so the word “frackle” is less widely used or known. It’s easy to imagine this resulting in ambiguity between “mubbs” the males (as a food source and cultural object), and “mubbs” the species (as a biological object of study). This would in turn beget annoying people who will say “frackles are ackshually mubbs”.
+
+We, as a global culture, pretty much universally consider the scientific definition of a word to be the “real” or “actual” definition of a word. It’s easy to imagine someone saying “Did you know frackles are *actually* mubbs?” because we already have people saying “Did you know that pumpkins are *actually* berries?” and “Did you know that birds are *actually* dinosaurs?” But “actually” implies any other interpretation is incorrect. It implies that the only legitimate definition of “berry” is one that includes pumpkins.
+
+While the lines that science draws around the world are useful within the domain of science, we draw other lines around the world that are useful in other domains. It would be foolish to think that the common or culinary category of “berry” is any less legitimate than the scientific one; the scientific definition of berry includes tomatoes, cucumbers and chillis, and excludes strawberries and blackberries. We live in a day-to-day reality where the scientific context is (compared to the importance we place on it) surprisingly rare. In the context of ordering a “mixed berry” cocktail, you would certainly not expect to be served a Bloody Mary. Both of these categories we call “berry” describe a collection of different fruits, and each of them is useful in its own context. All models are wrong, but some are useful, as they say.
+
+I think people generally want reality to be simple. They want “berry” to mean one thing, “planet” to mean one thing, “woman” to mean one thing, and they want all of those categories to have hard lines around them with no ambiguity. Thus, we tend to turn to science in our desire for an objective and strictly delineated reality[^1]. Science even labels some categories “true” to set them apart from the “common” concept — “true crabs”, “true tuna”, etc. Hopefully it should be clear that even though science seems to draw sharper lines around reality, it doesn’t make them necessarily more useful, or more worthy. But even the idea that science draws perfect delineating categories is mistaken; science’s seemingly sharp lines blur in the face of the infinite variation of nature and culture. For one, there is in fact ambiguity among botanists when differentiating “berries” from “drupes” (when differentiated, a category that includes peaches and coconuts) on the basis of an internally differentiated endocarp, or an endocarp of a particular thickness[^2]. Many scientific categorisations are ambiguous, especially biological ones, the criteria for an individual to fit into a category is often subjective[^3], and the decision as to which criteria constitute each category is purely a human decision.
+
+In *Making Up People*, Ian Hacking makes objections to the idea that natural categories are human-made:
+
+> I do not know if there were thoroughgoing, consistent, hardline nominalists who held that every classification is of our own making. (…) I think that many categories come from nature, not from the human mind. (…) It would be preposterous to suggest that the only thing horses have in common is that we call them horses.
+
+He seems to believe that since natural similarities exist, this must mean nature creates the categories that each individual plant, animal, celestial body, etc falls into, not us. He takes for granted the English language concept of “horse”. He seems to think that we came closer to the “real” category of “planet” when we grouped Earth with the other planets and excluded the Moon and Sun. But he is mistaken. There are many, just as real, just as useful, categories we call “planet”, or something similar in another language (like 星). All categories, including scientific ones, are fuzzy and constructed by people, but this doesn’t mean they don’t describe real similarities in useful or legitimate ways. We have to accept that there isn’t one true way to describe the world. There are only useful, imperfect ways to describe the world. It's imperative we accept this, because if you can’t be satisfied with the ambiguous and imperfect category of “sandwich”, what are you gonna do when faced with “woman”?
+
+It can therefore be concluded that all online sandwich pedants are transphobes. 
+
+[^1]: And when a category is purely cultural and people cannot turn to science for an answer, all hell breaks loose. See: the endless tedious internet arguments about whether an [insert food here] is a sandwich.
+
+[^2]: A criterion that means absolutely nothing to anyone in any context outside of the botanical world.
+
+[^3]: I won’t go into it in detail, but despite several attempts at a mathematical criterion for “clearing the neighbourhood”, the criterion that led to Pluto being reclassified as a dwarf planet, there are still objections to it on the basis of inconsistency and ambiguity. Earth and many other planets have not perfectly cleared their orbits of asteroids, so it seems “clearing the neighbourhood” is a kind of (detailed and technical) know-it-when-you-see-it type deal. I hope this shows how criteria that seem to be black and white at first glance end up being ambiguous when confronted with the complexity of reality.
