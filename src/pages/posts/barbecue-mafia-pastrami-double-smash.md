@@ -7,7 +7,7 @@ image:
     url: "/images/posts/barbecue-mafia/pastrami-double-smash.jpg"
     alt: "A towering burger with two smash patties on the bottom and a stack of pastrami on top."
 tags: ["rosasafi", "burger", "smash burger", "barbecue mafia"]
-mapsLink: "https://maps.app.goo.gl/FBQgF7jh7XPvBzvs6"
+mapsLink: "https://maps.app.goo.gl/czERFniou9FtfscA6"
 ---
 This was my second trip to Barbecue Mafia, and I had high hopes. On my last trip I had something like a cheesesteak smash burger, which was insanely good. This time I ordered the pastrami double smash.
 
