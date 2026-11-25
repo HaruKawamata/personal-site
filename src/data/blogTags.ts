@@ -3,6 +3,7 @@ import genderButton from "@images/buttons/blog-gender.png"
 import langblrButton from "@images/buttons/blog-langblr.png"
 import myArtButton from "@images/buttons/blog-my-art.png"
 import utenaNotesButton from "@images/buttons/utena-notes.png"
+import dandadanNotesButton from "@images/buttons/dandadan-notes.png"
 import allPostsButton from "@images/buttons/blog-all-posts.png"
 
 export const blogTags = [
@@ -40,6 +41,14 @@ export const blogTags = [
     title: "Utena Fansub",
     description: "Translation notes for my Revolutionary Girl Utena fansub",
     button: utenaNotesButton,
+    oldestFirst: true,
+  },
+  {
+    path: "dandadan-fansub",
+    tag: "dandadan fansub",
+    title: "Dandadan Fansub",
+    description: "Translation notes for my Dandadan fansub",
+    button: dandadanNotesButton,
     oldestFirst: true,
   },
   {

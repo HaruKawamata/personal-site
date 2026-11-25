@@ -1,8 +1,9 @@
 ---
 import PlainMarkdownPostLayout from "./PlainMarkdownPostLayout.astro"
 const { frontmatter } = Astro.props;
+const backLink = frontmatter.backLink ?? { href: "/blog/utena-fansub", label: "Back to Utena fansub notes" }
 ---
-<PlainMarkdownPostLayout frontmatter={frontmatter} backLink={{ href: "/blog/utena-fansub", label: "Back to Utena fansub notes" }}>
+<PlainMarkdownPostLayout frontmatter={frontmatter} backLink={backLink}>
   <slot />
 </PlainMarkdownPostLayout>
 
@@ -25,5 +26,10 @@ const { frontmatter } = Astro.props;
 }
 .color-pink {
   color: #ff62ce;
+}
+.youtube-embed {
+  width: 100%;
+  max-width: 640px;
+  aspect-ratio: 16 / 9;
 }
 </style>
