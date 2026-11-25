@@ -2,7 +2,7 @@
 import PlainMarkdownPostLayout from "./PlainMarkdownPostLayout.astro"
 const { frontmatter } = Astro.props;
 ---
-<PlainMarkdownPostLayout frontmatter={frontmatter}>
+<PlainMarkdownPostLayout frontmatter={frontmatter} backLink={{ href: "/blog/utena-fansub", label: "Back to Utena fansub notes" }}>
   <slot />
 </PlainMarkdownPostLayout>
 

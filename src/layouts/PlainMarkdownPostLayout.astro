@@ -1,6 +1,7 @@
 ---
 import SeriesNav from "../components/SeriesNav.astro"
-const { frontmatter } = Astro.props;
+import BackLink from "../components/BackLink.astro"
+const { frontmatter, backLink } = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -13,6 +14,7 @@ const { frontmatter } = Astro.props;
   </head>
   <body>
     <main>
+      <BackLink {...backLink} />
       <header>
         <h1>{frontmatter.title}</h1>
       </header>
